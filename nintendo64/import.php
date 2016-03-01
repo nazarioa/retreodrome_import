@@ -5,6 +5,7 @@ require_once __DIR__ . '/../Medoo/medoo.php';
 
 $database = new medoo ($settings);
 define ('DEBUG', false);
+define ('CONSOLEID', 2);
 
 $file_path = 'data-64-complete.xml';
 $file_handle = fopen ( __DIR__ . '/' . $file_path, 'r');
@@ -113,6 +114,11 @@ foreach ($xml_data->game as $key => $entry) {
         'release_id' => (int) $last_releases_id,
         'company_id' => (int) $company_id,
         'company_role_type_id' => 65,
+      ]);
+
+      $database->insert ('consoles_releases', [
+        'console_id' => (int) CONSOLEID,
+        'release_id' => (int) $last_releases_id,
       ]);
     }
   }
