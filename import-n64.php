@@ -1,13 +1,13 @@
 <?php
-require_once __DIR__ . '/../sensitive-settings.php';
-require_once __DIR__ . '/../common.php';
-require_once __DIR__ . '/../Medoo/medoo.php';
+require_once __DIR__ . '/sensitive-settings.php';
+require_once __DIR__ . '/common.php';
+require_once __DIR__ . '/Medoo/medoo.php';
 
 $database = new medoo ($settings);
 define ('DEBUG', false);
 define ('CONSOLEID', 2);
 
-$file_path = 'data-64-complete.xml';
+$file_path = 'data/N64/n64.complete.xml';
 $file_handle = fopen ( __DIR__ . '/' . $file_path, 'r');
 $file_data = fread ($file_handle, filesize (__DIR__ . '/' . $file_path));
 

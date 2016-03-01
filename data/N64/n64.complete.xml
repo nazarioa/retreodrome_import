@@ -1,0 +1,2482 @@
+<?xml version="1.0"?>
+<menu>
+	<game>
+		<title>007 - GoldenEye</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>007 - The World Is Not Enough</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>1080 Snowboarding</title>
+		<region>NTSC</region>
+		<languages>En,Ja</languages>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>AeroFighters Assault</title>
+		<region>NTSC</region>
+		<manufacturer>Vic Tokai</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Simulation</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>AeroGauge</title>
+		<region>NTSC</region>
+		<manufacturer>ASCII Entertainment</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Aidyn Chronicles - The First Mage</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Role-Playing</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Air Boarder 64</title>
+		<region>PAL</region>
+		<manufacturer>GMI</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>All Star Tennis '99</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>All-Star Baseball '99</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>All-Star Baseball 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>All-Star Baseball 2001</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Armorines - Project S.W.A.R.M.</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Army Men - Air Combat</title>
+		<region>NTSC</region>
+		<manufacturer>3DO</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Army Men - Sarge's Heroes</title>
+		<region>NTSC</region>
+		<manufacturer>3DO</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Army Men - Sarge's Heroes 2</title>
+		<region>NTSC</region>
+		<manufacturer>3DO</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Asteroids Hyper 64</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shoot-Em-Up</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Automobili Lamborghini</title>
+		<region>NTSC</region>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Banjo-Kazooie</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Banjo-Tooie</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bassmasters 2000</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Batman Beyond - Return of the Joker</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Beat-Em-Up</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>BattleTanx</title>
+		<region>NTSC</region>
+		<manufacturer>3DO</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>BattleTanx - Global Assault</title>
+		<region>NTSC</region>
+		<manufacturer>3DO</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Battlezone - Rise of the Black Dogs</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Strategy</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Beetle Adventure Racing!</title>
+		<region>NTSC</region>
+		<languages>Fr,De</languages>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Big Mountain 2000</title>
+		<region>NTSC</region>
+		<manufacturer>SouthPeak Games</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bio F.R.E.A.K.S.</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Blast Corps</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Blues Brothers 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Titus Software</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Body Harvest</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Bomberman 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bomberman 64 - The Second Attack!</title>
+		<region>NTSC</region>
+		<manufacturer>Vatical Entertainment</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bomberman Hero</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bottom of the 9th</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Brunswick Circuit Pro Bowling</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Buck Bumble</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bug's Life, A</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bust-A-Move '99</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Bust-A-Move 2 - Arcade Edition</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>California Speed</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Carmageddon 64</title>
+		<region>NTSC</region>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Castlevania</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Castlevania - Legacy of Darkness</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Centre Court Tennis</title>
+		<region>PAL</region>
+		<manufacturer>BigBen Interactive</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Chameleon Twist</title>
+		<region>NTSC</region>
+		<manufacturer>SunSoft</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Chameleon Twist 2</title>
+		<region>NTSC</region>
+		<manufacturer>SunSoft</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Charlie Blast's Territory</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Chopper Attack</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Clay Fighter - Sculptor's Cut</title>
+		<region>NTSC</region>
+		<manufacturer>Interplay</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Clay Fighter 63 1-3</title>
+		<region>NTSC</region>
+		<manufacturer>Interplay</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Command &amp; Conquer</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Strategy</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Conker's Bad Fur Day</title>
+		<region>NTSC</region>
+		<manufacturer>Rare Ltd.</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Platform</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Cruis'n Exotica</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Cruis'n USA</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Cruis'n World</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>CyberTiger</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Dark Rift</title>
+		<region>NTSC</region>
+		<manufacturer>Vic Tokai</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Deadly Arts</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Destruction Derby 64</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Diddy Kong Racing</title>
+		<region>NTSC</region>
+		<languages>En,Fr</languages>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Donald Duck - Goin' Quackers</title>
+		<region>NTSC</region>
+		<languages>Es,It</languages>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Donkey Kong 64</title>
+		<region>NTSC</region>
+		<manufacturer>Rare Ltd.</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Doom 64</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Dr. Mario 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Dual Heroes</title>
+		<region>NTSC</region>
+		<manufacturer>Electro Brain</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Duck Dodgers Starring Daffy Duck</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Infogrames</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Duke Nukem - Zero Hour</title>
+		<region>NTSC</region>
+		<manufacturer>GT Interactive</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Duke Nukem 64</title>
+		<region>NTSC</region>
+		<manufacturer>GT Interactive</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Earthworm Jim 3D</title>
+		<region>NTSC</region>
+		<manufacturer>Rockstar Games</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>ECW Hardcore Revolution</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Elmo's Letter Adventure</title>
+		<region>NTSC</region>
+		<manufacturer>NewKidCo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Miscellaneous</genre>
+		<rating>EC</rating>
+	</game>
+	<game>
+		<title>Elmo's Number Journey</title>
+		<region>NTSC</region>
+		<manufacturer>NewKidCo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Miscellaneous</genre>
+		<rating>EC</rating>
+	</game>
+	<game>
+		<title>Excitebike 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Extreme-G</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Extreme-G XG2</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>F-1 World Grand Prix</title>
+		<region>NTSC</region>
+		<manufacturer>Video System</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>F-1 World Grand Prix II</title>
+		<region>PAL</region>
+		<languages>De,Es</languages>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>F-Zero X</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>F1 Pole Position 64</title>
+		<region>NTSC</region>
+		<languages>Fr,De</languages>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>F1 Racing Championship</title>
+		<region>PAL</region>
+		<languages>Es,It</languages>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>FIFA - Road to World Cup 98</title>
+		<region>NTSC</region>
+		<languages>Nl,Sv</languages>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>FIFA 99</title>
+		<region>NTSC</region>
+		<languages>Pt,Sv</languages>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>FIFA Soccer 64</title>
+		<region>NTSC</region>
+		<languages>Fr,De</languages>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Fighter Destiny 2</title>
+		<region>NTSC</region>
+		<manufacturer>Ocean</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Fighters Destiny</title>
+		<region>NTSC</region>
+		<manufacturer>Ocean</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Fighting Force 64</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Beat-Em-Up</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Flying Dragon</title>
+		<region>NTSC</region>
+		<manufacturer>Natsume</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Forsaken 64</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Fox Sports College Hoops '99</title>
+		<region>NTSC</region>
+		<manufacturer>Fox Interactive</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Gauntlet Legends</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Gex 3 - Deep Cover Gecko</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Gex 64 - Enter the Gecko</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Glover</title>
+		<region>NTSC</region>
+		<manufacturer>Hasbro Interactive</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Goemon's Great Adventure</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Golden Nugget 64</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Casino</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>GT64 - Championship Edition</title>
+		<region>NTSC</region>
+		<manufacturer>Ocean</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Harvest Moon 64</title>
+		<region>NTSC</region>
+		<manufacturer>Natsume</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Strategy</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Hercules - The Legendary Journeys</title>
+		<region>NTSC</region>
+		<manufacturer>Titus Software</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Hexen</title>
+		<region>NTSC</region>
+		<manufacturer>GT Interactive</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Hey You, Pikachu!</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Hot Wheels - Turbo Racing</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Hybrid Heaven</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Role-Playing</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Hydro Thunder</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Iggy's Reckin' Balls</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>In-Fisherman - Bass Hunter 64</title>
+		<region>NTSC</region>
+		<manufacturer>Take-Two Interactive</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Indiana Jones and the Infernal Machine</title>
+		<region>NTSC</region>
+		<manufacturer>LucasArts</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Indy Racing 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Infogrames</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>International Superstar Soccer '98</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>International Superstar Soccer 2000</title>
+		<region>NTSC</region>
+		<languages>En,Es</languages>
+		<manufacturer>Konami</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>International Superstar Soccer 64</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>International Track &amp; Field 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Jeopardy!</title>
+		<region>NTSC</region>
+		<manufacturer>GameTek</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Game Show</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Jeremy McGrath Supercross 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Jet Force Gemini</title>
+		<region>NTSC</region>
+		<manufacturer>Rare Ltd.</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>John Romero's Daikatana</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Ken Griffey Jr.'s Slugfest</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Killer Instinct Gold</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Kirby 64 - The Crystal Shards</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Knife Edge - Nose Gunner</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Knockout Kings 2000</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Kobe Bryant's NBA Courtside</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Legend of Zelda, The - Majora's Mask</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Legend of Zelda, The - Ocarina of Time</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>LEGO Racers</title>
+		<region>NTSC</region>
+		<languages>Da,Fi</languages>
+		<manufacturer>Lego Media</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Lode Runner 3-D</title>
+		<region>NTSC</region>
+		<manufacturer>Infogrames</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mace - The Dark Age</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Fighting</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Madden Football 64</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Madden NFL 2000</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Madden NFL 2001</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Madden NFL 2002</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Madden NFL 99</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Magical Tetris Challenge</title>
+		<region>NTSC</region>
+		<manufacturer>Capcom</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Major League Baseball featuring Ken Griffey Jr.</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Golf</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Kart 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Party</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Party</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Party 2</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Party</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Party 3</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Pinball</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mario Tennis</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mega Man 64</title>
+		<region>NTSC</region>
+		<manufacturer>Capcom</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mia Hamm Soccer 64</title>
+		<region>NTSC</region>
+		<languages>En,Es</languages>
+		<manufacturer>SouthPeak Games</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mickey's Speedway USA</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Micro Machines 64 Turbo</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Midway's Greatest Arcade Hits - Volume 1</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Miscellaneous</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mike Piazza's StrikeZone</title>
+		<region>NTSC</region>
+		<manufacturer>GT Interactive</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Milo's Astro Lanes</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mischief Makers</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mission Impossible</title>
+		<region>NTSC</region>
+		<manufacturer>Ocean</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Adventure</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Monaco Grand Prix</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Monopoly</title>
+		<region>NTSC</region>
+		<manufacturer>Hasbro Interactive</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Board Games</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Monster Truck Madness 64</title>
+		<region>NTSC</region>
+		<manufacturer>Rockstar Games</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mortal Kombat 4</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Mortal Kombat Mythologies - Sub-Zero</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Platform</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Mortal Kombat Trilogy</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Midway</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Fighting</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>MRC - Multi Racing Championship</title>
+		<region>NTSC</region>
+		<manufacturer>Ocean</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Ms. Pac-Man - Maze Madness</title>
+		<region>NTSC</region>
+		<manufacturer>Namco</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Mystical Ninja Starring Goemon</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Nagano Winter Olympics '98</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Namco Museum 64</title>
+		<region>NTSC</region>
+		<manufacturer>Namco</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Miscellaneous</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NASCAR 2000</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NASCAR 99</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Courtside 2 featuring Kobe Bryant</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Hangtime</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA in the Zone '98</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA in the Zone '99</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA in the Zone 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Jam 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Jam 99</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Live 2000</title>
+		<region>NTSC</region>
+		<languages>De,Es</languages>
+		<manufacturer>Konami</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Live 99</title>
+		<region>NTSC</region>
+		<languages>Es,It</languages>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NBA Showtime - NBA on NBC</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>New Tetris, The</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Blitz</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Blitz - Special Edition</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Blitz 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Blitz 2001</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Quarterback Club 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Quarterback Club 2001</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Quarterback Club 98</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NFL Quarterback Club 99</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NHL 99</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NHL Blades of Steel '99</title>
+		<region>NTSC</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NHL Breakaway 98</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>NHL Breakaway 99</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Nightmare Creatures</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Adventure</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Nuclear Strike 64</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Off Road Challenge</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Ogre Battle 64 - Person of Lordly Caliber</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Atlus Co.</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Strategy</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Olympic Hockey 98</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Paper Mario</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Role-Playing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Paperboy</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Penny Racers</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Perfect Dark</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>PGA European Tour</title>
+		<region>NTSC</region>
+		<manufacturer>Infogrames</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Pilotwings 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Simulation</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Pokemon Puzzle League</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Pokemon Snap</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Pokemon Stadium</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Strategy</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Pokemon Stadium 2</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Strategy</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Polaris SnoCross</title>
+		<region>NTSC</region>
+		<manufacturer>Vatical Entertainment</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Power Rangers - Lightspeed Rescue</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Powerpuff Girls, The - Chemical X-Traction</title>
+		<region>NTSC</region>
+		<manufacturer>Bam Entertainment</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Action</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Premier Manager 64</title>
+		<region>PAL</region>
+		<manufacturer>Gremlin Interactive</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Quake 64</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Quake II</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Quest 64</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Role-Playing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Rakuga Kids</title>
+		<region>PAL</region>
+		<manufacturer>Konami</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Fighting</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Rally Challenge 2000</title>
+		<region>NTSC</region>
+		<manufacturer>SouthPeak Games</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Rampage - World Tour</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Rampage 2 - Universal Tour</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Rat Attack!</title>
+		<region>NTSC</region>
+		<languages>It,Nl</languages>
+		<manufacturer>Mindscape Inc.</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Rayman 2 - The Great Escape</title>
+		<region>NTSC</region>
+		<languages>Es,It</languages>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Razor Freestyle Scooter</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Re-Volt</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Ready 2 Rumble Boxing</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Ready 2 Rumble Boxing - Round 2</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Resident Evil 2</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Capcom</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Road Rash 64</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Roadsters Trophy</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Robotron 64</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Action</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Rocket - Robot on Wheels</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>RR64 - Ridge Racer 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Rugrats - Scavenger Hunt</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Board Games</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Rugrats in Paris - The Movie</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Rush 2 - Extreme Racing USA</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>S.C.A.R.S.</title>
+		<region>NTSC</region>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>San Francisco Rush - Extreme Racing</title>
+		<region>NTSC</region>
+		<languages>Fr,De</languages>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>San Francisco Rush 2049</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Scooby-Doo! - Classic Creep Capers</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Shadow Man</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Adventure</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Shadowgate 64 - Trials of the Four Towers</title>
+		<region>NTSC</region>
+		<languages>En,Es</languages>
+		<manufacturer>Kemco</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Snowboard Kids</title>
+		<region>NTSC</region>
+		<manufacturer>Atlus Co.</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Snowboard Kids 2</title>
+		<region>NTSC</region>
+		<manufacturer>Atlus Co.</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>South Park</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>South Park - Chef's Luv Shack</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Party</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>South Park Rally</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Space Invaders</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shoot-Em-Up</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>SpaceStation Silicon Valley</title>
+		<region>NTSC</region>
+		<manufacturer>Take-Two Interactive</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Spider-Man</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Star Fox 64</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shoot-Em-Up</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Star Soldier - Vanishing Earth</title>
+		<region>NTSC</region>
+		<manufacturer>Electro Brain</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Star Wars - Rogue Squadron</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>LucasArts</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Star Wars - Shadows of the Empire</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Star Wars Episode I - Battle for Naboo</title>
+		<region>NTSC</region>
+		<manufacturer>LucasArts</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Star Wars Episode I - Racer</title>
+		<region>NTSC</region>
+		<manufacturer>LucasArts</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>StarCraft 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Strategy</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Starshot - Space Circus Fever</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Infogrames</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Stunt Racer 64</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Super Bowling</title>
+		<region>NTSC</region>
+		<manufacturer>UFO Interactive</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Super Mario 64</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Super Smash Bros.</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Fighting</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Supercross 2000</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Superman</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Adventure</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tarzan</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Taz Express</title>
+		<region>PAL</region>
+		<languages>It,Nl</languages>
+		<manufacturer>Infogrames</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>GA</rating>
+	</game>
+	<game>
+		<title>Tetrisphere</title>
+		<region>NTSC</region>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tigger's Honey Hunt</title>
+		<region>NTSC</region>
+		<manufacturer>NewKidCo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tom and Jerry in Fists of Furry</title>
+		<region>NTSC</region>
+		<manufacturer>NewKidCo</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Fighting</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tom Clancy's Rainbow Six</title>
+		<region>NTSC</region>
+		<manufacturer>Red Storm Entertainment</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Tonic Trouble</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Ubisoft</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tony Hawk's Pro Skater</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Activision</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tony Hawk's Pro Skater 2</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>2001-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Tony Hawk's Pro Skater 3</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>2002-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Top Gear Hyper-Bike</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Top Gear Overdrive</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Top Gear Rally</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Top Gear Rally 2</title>
+		<region>NTSC</region>
+		<manufacturer>Kemco</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Toy Story 2</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Transformers - Beast Wars Transmetals</title>
+		<region>NTSC</region>
+		<manufacturer>Bam Entertainment</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Triple Play 2000</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Turok - Dinosaur Hunter</title>
+		<region>NTSC</region>
+		<revision>B</revision>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Turok - Rage Wars</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Turok 2 - Seeds of Evil</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Turok 3 - Shadow of Oblivion</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Shooter</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Twisted Edge - Extreme Snowboarding</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>V-Rally Edition 99</title>
+		<region>NTSC</region>
+		<manufacturer>Infogrames</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Vigilante 8</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Vigilante 8 - 2nd Offense</title>
+		<region>NTSC</region>
+		<manufacturer>Activision</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Racing</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Virtual Chess 64</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Board Games</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Virtual Pool 64</title>
+		<region>NTSC</region>
+		<manufacturer>Crave</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Miscellaneous</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Waialae Country Club - True Golf Classics</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>War Gods</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Fighting</genre>
+		<rating>M</rating>
+	</game>
+	<game>
+		<title>Wave Race 64</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Wayne Gretzky's 3D Hockey '98</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Wayne Gretzky's 3D Hockey</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>Midway</manufacturer>
+		<year>1996-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>WCW Backstage Assault</title>
+		<region>NTSC</region>
+		<manufacturer>Electronic Arts</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>WCW Mayhem</title>
+		<region>NTSC</region>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>WCW Nitro</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>WCW vs. nWo - World Tour</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>THQ</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>WCW-nWo Revenge</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Wetrix</title>
+		<region>NTSC</region>
+		<languages>It,Nl</languages>
+		<manufacturer>Ocean</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Puzzle</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Wheel of Fortune</title>
+		<region>NTSC</region>
+		<manufacturer>GameTek</manufacturer>
+		<year>1997-01-01</year>
+		<genre>Game Show</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>WinBack - Covert Operations</title>
+		<region>NTSC</region>
+		<manufacturer>Koei</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Shooter</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Wipeout 64</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>World Cup 98</title>
+		<region>NTSC</region>
+		<languages>Sv,Da</languages>
+		<manufacturer>EA Sports</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>World Driver Championship</title>
+		<region>NTSC</region>
+		<manufacturer>Midway</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Racing</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>Worms Armageddon</title>
+		<region>NTSC</region>
+		<languages>Fr,Es</languages>
+		<manufacturer>Infogrames</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Strategy</genre>
+		<rating>E</rating>
+	</game>
+	<game>
+		<title>WWF Attitude</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>WWF No Mercy</title>
+		<region>NTSC</region>
+		<revision>A</revision>
+		<manufacturer>THQ</manufacturer>
+		<year>2000-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>WWF War Zone</title>
+		<region>NTSC</region>
+		<manufacturer>Acclaim</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>WWF WrestleMania 2000</title>
+		<region>NTSC</region>
+		<manufacturer>THQ</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Sports</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Xena - Warrior Princess - The Talisman of Fate</title>
+		<region>NTSC</region>
+		<manufacturer>Titus Software</manufacturer>
+		<year>1999-01-01</year>
+		<genre>Fighting</genre>
+		<rating>T</rating>
+	</game>
+	<game>
+		<title>Yoshi's Story</title>
+		<region>NTSC</region>
+		<languages>En,Ja</languages>
+		<manufacturer>Nintendo</manufacturer>
+		<year>1998-01-01</year>
+		<genre>Platform</genre>
+		<rating>E</rating>
+	</game>
+</menu>
