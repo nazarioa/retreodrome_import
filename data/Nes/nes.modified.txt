@@ -1,0 +1,28 @@
+    <genre>Action</genre>
+    <genre>Adventure</genre>
+    <genre>Beat-&apos;Em-Up</genre>
+    <genre>Board Games</genre>
+    <genre>Breakout</genre>
+    <genre>Casino</genre>
+    <genre>Compilation</genre>
+    <genre>Driving</genre>
+    <genre>Educational</genre>
+    <genre>Fighter</genre>
+    <genre>Flying</genre>
+    <genre>Game Show</genre>
+    <genre>Gun</genre>
+    <genre>Maze</genre>
+    <genre>Mini-Games</genre>
+    <genre>Miscellaneous</genre>
+    <genre>Motorcycle</genre>
+    <genre>Pinball</genre>
+    <genre>Platform</genre>
+    <genre>Puzzle</genre>
+    <genre>Rhythm</genre>
+    <genre>Role-Playing</genre>
+    <genre>Shoot-&apos;Em-Up</genre>
+    <genre>Shooter</genre>
+    <genre>Simulation</genre>
+    <genre>Sports</genre>
+    <genre>Strategy</genre>
+    <genre>Water</genre>

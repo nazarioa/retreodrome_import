@@ -1,0 +1,150 @@
+Release for this title exists:Jeopardy!
+Release for this title exists:Mission Impossible
+Release for this title exists:Monopoly
+Release for this title exists:Paperboy
+Release for this title exists:Superman
+Release for this title exists:Wheel of Fortune
+Release for this title exists:Castlevania
+
+company: AOH Games
+company: ASC Games
+company: Absolute Entertainment
+company: Active Enterprises
+company: Al Bailey
+company: American Game Cartridges
+company: American Game Cartridges, Inc.
+company: American Sammy
+company: American Softworks
+company: American Video Entertainment
+company: Ape Studios
+company: Arcadia Systems
+company: Asmik Corporation of America
+company: Bandai
+company: Bandai America Inc.
+company: Beam Software
+company: Bit Corp.
+company: Bits Studios
+company: Bob Rost
+company: Bob Rost, Andrew Klein, Matt Longnecker, Mike Raisman and Mark Hall
+company: Broderbund
+company: Bullet Proof Software
+company: Bulletproof Software
+company: Bunch Games, Inc.
+company: CBS Sony Group
+company: California Dreams
+company: Caltron
+company: Camerica
+company: Chris M. Cowell
+company: Color Dreams
+company: Culture Brain
+company: Cygnus
+company: Daou
+company: Data East
+company: Data East USA
+company: David Wiebenson
+company: ElectroBrain
+company: Enix America, Inc.
+company: Epic Sony Record
+company: FCI, Inc
+company: FCI, Inc.
+company: Faux Game Co.
+company: Gluk Video
+company: Gradual Games
+company: Gremlin Graphics
+company: HAL Labs
+company: HES Interactive
+company: HLC Project
+company: Hacker
+company: Hal
+company: Hi Tech Expressions
+company: Hi-Tech
+company: High Tech
+company: Hot B
+company: Hot-B
+company: Hudson
+company: Hudson Soft
+company: INTV
+company: Imagineer
+company: Infocom
+company: Irem
+company: JVC Digital Studios
+company: JVC Musical Industries, Inc.
+company: Jaleco
+company: Jaleco Entertainment
+company: KHAN Games
+company: Kent Hansen and Andreas Pedersen
+company: Kid
+company: LJN Ltd.
+company: Ludosity
+company: Matchbox
+company: Matrixz
+company: Mattel
+company: Mega Soft
+company: Meldac
+company: Michael Blain, Mark Schmit and Phil Yam
+company: Micro Genius
+company: MicroProse
+company: Microsmiths Inc.
+company: Milton Bradley
+company: Mojon Twins
+company: NTDEC
+company: NTVIC
+company: Neal Tew
+company: Nessylum Games
+company: Neverware
+company: Nexoft
+company: Nowhere Prod.
+company: Odyssey Software
+company: Palcom
+company: Panesian
+company: Parker Bros.
+company: Pony Canyon
+company: Racermate
+company: Radiance
+company: RetroSouls
+company: Romstar
+company: SEI
+company: SNK
+company: Sachen
+company: Sammy Studios
+company: Sculptured Software
+company: Sean Kelly
+company: Seika Corp.
+company: Seta Corporation
+company: Shiru
+company: Sivak Games
+company: Sly Dog Studios
+company: Smkdan
+company: Snowbro Software
+company: Sofel
+company: Software Creations
+company: Software Toolworks
+company: Sony Imagesoft
+company: SquareSoft
+company: Stefan Adolfsson and David Eriksson
+company: TOSE
+company: Taito
+company: Taito Corporation
+company: Takara
+company: Taxan
+company: Technos
+company: Tecmo
+company: Tengen
+company: Tepples
+company: Toho
+company: Tonkin House
+company: Tradewest
+company: Triffix
+company: Ultra
+company: Vap
+company: Vblank Entertainment
+company: Virgin Games
+company: Virgin Interactive
+company: Wisdom Tree
+
+genre: Driving
+genre: Fighter
+genre: Flying
+genre: Gun
+genre: Race
+genre: Shoot-'Em-Up
