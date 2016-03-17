@@ -1,0 +1,80 @@
+Clean Up
+========
+
+Example:
+<game name="3-D WorldRunner (USA)" index="true" image="3">
+  <description>3-D WorldRunner (USA)</description>
+  <cloneof></cloneof>
+  <crc>D5ADA486</crc>
+  <manufacturer>Acclaim</manufacturer>
+  <year>1987</year>
+  <genre>Action</genre>
+  <rating>Other - NR (Not Rated)</rating>
+  <enabled>Yes</enabled>
+</game>
+
+
+Description / Title
+-----------------
+Search: <(\/{0,1})description>
+Replace: <$1title>
+
+Year
+----
+Search: <year>([0-9]+)</year>
+Replace: <year>$1-01-01</year>
+
+
+Game
+----
+Search: <game(.)+>
+Replace: <game>
+
+
+Other
+------
+Search: <cloneof></cloneof>\s*
+Replace: Null
+
+
+Search: <crc>(.)*</crc>\s*
+Replace: Null
+
+Search: <enabled>(.)*</enabled>\s*
+Replace: Null
+
+
+Other
+-----
+Search: \s*\(Proto\)</title>(\s+)
+Replace: </title>$1<prototype>yes</prototype>\n
+
+
+Other
+-----
+Search: \s*\(Unl\)</title>(\s+)
+Replace: </title>$1<unlicensed>yes</unlicensed>\n
+
+
+Clean Titled
+------------
+Search: <game.*>
+Replaced: <game>
+
+
+Region
+------
+Search: (\(Japan, USA\)|\(USA\)|\(Japan\))</title>(\s*)
+Replace: </title>$2<region>NTSC</region>$2
+
+Search: \s*\(Europe\)</title>(\s*)
+Replace: </title>$1<region>PAL</region>$1
+
+Search: \s*\(Spain\)</title>(\s*)
+Replace: </title>$1<region>PAL</region>$1
+
+Search: \s*\(Australia\)</title>(\s*)
+Replace: </title>$1<region>PAL</region>$1
+
+Search: \s*\(World\)</title>(\s+)
+Replace: </title>$1<region>ALL</region>$1
