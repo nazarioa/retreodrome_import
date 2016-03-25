@@ -46,6 +46,7 @@ foreach ($xml_data->game as $game) {
 
     // Associating Boaxart
     // boaxart are processed after cartridge insert
+    // TODO: Box Art / Database design for it.
 
     // Associating Consoles
     // consoles are processed after cartridge insert
