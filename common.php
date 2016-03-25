@@ -3,13 +3,13 @@ define ('RESULTS_MULTIPLE', 'Found >1 categories');
 define ('RESULTS_ZERO', 'Found 0 categories');
 define ('RESULTS_INVALID', 'Invalid Results');
 
-define ('MECHANICS', 'Mechanics');
-define ('GENRES', 'Genres');
+define ('MECHANICS', 'Mechanic');
+define ('GENRES', 'Genre');
 define ('MATURITY_RATING', 'Maturity Rating');
 define ('CREATION_ROLE', 'Creation Role');
-define ('REGIONS', 'Regions');
+define ('REGIONS', 'Region');
 define ('OTHER', 'Other');
-define ('COUNTRIES', 'Countries');
+define ('COUNTRIES', 'Country Code');
 
 define ('YES', 1);
 define ('NO', 0);
