@@ -118,6 +118,30 @@ function set_company_id ( (string) $name, &$database) {
 }
 
 
+function get_console_id ( (string) $name, &$database, $insert = false) {
+  $console_id = $database->select ('consoles', ['id'], ['name [=]' => (string) $name]);
+
+  if ( count ($company_id) == 1) {
+    return $company_id[0]['id'];
+  } elseif (DEBUG == true) {
+    return 1;
+  } elseif ( count ($company_id) > 1) {
+    throw new Exception (RESULTS_MULTIPLE, 1);
+  } elseif ( count ($company_id) < 1 ) {
+    $company_id = set_company_id ($name, $database);
+  }
+
+  return $company_id;
+}
+
+function set_console_id ( (string) $name, &$database) {
+  $company_id = $database->insert ('consoles', [
+    'name' => (string) $name,
+  ]);
+  return $company_id;
+}
+
+
 function get_type ( (string) $type_name, $category_name, &$database, $insert = false) {
   try {
     $category = get_category ($category_name, $database);
