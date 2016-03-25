@@ -7,6 +7,14 @@ $database = new medoo ($settings);
 define ('DEBUG', true);
 define ('CONSOLEID', 3);
 
+define ('MECHANICS', 'Mechanics');
+define ('GENRES', 'Genres');
+define ('MATURITY_RATING', 'Maturity Rating');
+define ('CREATION_ROLE', 'Creation Role');
+define ('REGIONS', 'Regions');
+define ('OTHER', 'Other');
+define ('COUNTRIES', 'Countries');
+
 $file_path = 'temp.bk.xml';
 $file_handle = fopen ( __DIR__ . '/' . $file_path, 'r');
 $file_data = fread ($file_handle, filesize (__DIR__ . '/' . $file_path));
@@ -137,22 +145,102 @@ print_r ($final_results);
 // Helper functions
 
 function get_region_id ($name, &$database) {
-  return get_type ($name, 'Regions', $database);
+  try {
+    $region_id = get_type ($name, REGIONS, $database);
+  } catch (Exception $e) {
+    if ($e->messsage == RESULTS_ZERO) {
+      $region_id = set_region_id ($name, $database);
+    } else {
+      throw $e;
+    }
+  }
+
+  return $region_id;
+}
+
+function set_region_id ($name, &$database) {
+  return set_type ($name, REGIONS, $database);
 }
 
 
 function get_maturity_rating_id ($name, &$database) {
-  return get_type ($name, 'Maturity Rating', $database);
+  try {
+    $maturity_rating_type_id = get_type ($name, MATURITY_RATING, $database);
+  } catch (Exception $e) {
+    if ($e->messsage == RESULTS_ZERO) {
+      $maturity_rating_type_id = set_maturity_rating_id ($name, $database);
+    } else {
+      throw $e;
+    }
+  }
+
+  return $maturity_rating_type_id;
+}
+
+function set_maturity_rating_id ($name, &$database) {
+  return set_type ($name, MATURITY_RATING, $database);
 }
 
 
 function get_mechanics_id ($name, &$database) {
-  return get_type ($name, 'Mechanics', $database);
+  try {
+    $mechanics_id = get_type ($name, MECHANICS, $database);
+  } catch (Exception $e) {
+    if ($e->messsage == RESULTS_ZERO) {
+      $mechanics_id = set_mechanics_id ($name, $database);
+    } else {
+      throw $e;
+    }
+  }
+
+  return $mechanics_id;
+}
+
+function set_mechanics_id ($name, &$database) {
+  return set_type ($name, MECHANICS, $database);
 }
 
 
 function get_genre_id ($name, &$database) {
-  return get_type ($name, 'Genres', $database);
+  try {
+    $genre_id = get_type ($name, GENRES, $database);
+  } catch (Exception $e) {
+    if ($e->messsage == RESULTS_ZERO) {
+      $genre_id = set_genre_id ($name, $database);
+    } else {
+      throw $e;
+    }
+  }
+
+  return $genre_id;
+}
+
+function set_genre_id ($name, &$database) {
+  return set_type ($name, GENRES, $database);
+}
+
+
+function get_company_id ($name, &$database) {
+  $company_id = $database->select ('companies', ['id'], ['name [~]' => (string) $name]);
+
+  if ( count ($company_id) == 1) {
+    return $company_id[0]['id'];
+  } elseif (DEBUG == true) {
+    return 1;
+  } elseif ( count ($company_id) > 1) {
+    throw new Exception (RESULTS_MULTIPLE, 1);
+  } elseif ( count ($company_id) < 1 ) {
+    $company_id = set_company_id ($name, $database);
+  }
+
+  return $company_id;
+}
+
+function set_company_id ($name, &$database) {
+  $company_id = $database->insert ('companies', [
+    'name' => (string) $name,
+  ]);
+  return $company_id;
 }
 
 
@@ -178,6 +266,20 @@ function get_type ($type_name, $category_name, &$database) {
   throw new Exception (RESULTS_INVALID, 1);
 }
 
+function set_type ($name, $category, &$database) {
+  try {
+    $category_id = get_category($category, $database);
+  } catch (Exception $e) {
+    throw $e;
+  }
+
+  $type_id = $database->insert ('types', [
+    'name' => (string) $name,
+    'category_id' => (int) $category_id,
+  ]);
+
+  return $type_id;
+}
 
 function get_category ($category_name, &$database) {
   $category_id = $database->select ('categories', ['id'], ['name [~]' => (string) $category_name, ]);
@@ -193,19 +295,5 @@ function get_category ($category_name, &$database) {
   }
 
   throw new Exception (RESULTS_INVALID, 1);
-}
-
-function get_company_id ($name, &$database) {
-  $company_id = $database->select ('companies', ['id'], ['name [~]' => (string) $name]);
-
-  if ( count ($company_id) == 1) {
-    return $company_id[0]['id'];
-  } elseif (DEBUG == true) {
-    return 1;
-  } elseif ( count ($company_id) > 1) {
-    throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif ( count ($company_id) < 1 ) {
-    throw new Exception (RESULTS_ZERO, 1);
-  }
 }
 ?>
