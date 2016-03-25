@@ -49,6 +49,13 @@ foreach ($xml_data->game as $game) {
 
     // Associating Consoles
     // consoles are processed after cartridge insert
+    foreach ($consoles as $console) {
+      $console_id = get_console_id ($console->console, $database, true);
+      $database->insert ('cartridges_consoles', [
+        'console_id' => (int) $console_id,
+        'cartridge_id' => (int) $last_cartridge_id,
+      ]);
+    }
 
     // Associating Companies
     // companies are processed after cartridge insert
