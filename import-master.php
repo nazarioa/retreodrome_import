@@ -34,14 +34,12 @@ foreach ($xml_data->game as $game) {
   foreach ($game->cartridge as $cartridge) {
     $title = $cartridge->title;
     $region_type_id = get_region_id ($cartridge->region, $database, true);
-    $maturity_rating_type_id = get_maturity_rating_id ($cartridge->rating, $database, true);
     $game_default = ( !empty ($cartridge['primary']) && 'Y' == $cartridge['primary'] ) ?  YES : NO;
 
     $last_cartridge_id = $database->insert ('cartridges', [
       'game_id' => (int) $last_game_id,
       'name' => (string) $title,
       'region_type_id' => (int) $region_type_id,
-      'maturity_rating_type_id' => (int) $maturity_rating_type_id,
       'game_default' => (int) $game_default,
       'disabled' => NO,
     ]);
@@ -57,6 +55,24 @@ foreach ($xml_data->game as $game) {
 
     // Associating Releases
     // releases are processed after cartridge insert
+    foreach ($releases as $release) {
+      // TODO: Maybe Licemse
+      // TODO: Maybe Demo
+      // TODO: Maybe Special
+      // TODO: Maybe Prototype
+      // TODO: Maybe Offical
+      // TODO: Maybe Shipped Quantities
+
+      $country_type_id = get_type ( (string) $release->country, COUNTRIES, $database, true);
+      $maturity_rating_type_id = get_maturity_rating_id ($release->rating, $database, true);
+
+      $database->insert ('cartridges_consoles', [
+        'cartridge_id' => (int) $last_cartridge_id,
+        'country_id' => (int) $country_type_id,
+        'release_date' => (string) $release->release_date,
+        'maturity_rating_type_id' => (int) $maturity_rating_type_id,
+      ]);
+    }
   }
 }
 
