@@ -7,7 +7,7 @@ $database = new medoo ($settings);
 define ('DEBUG', true);
 define ('CONSOLEID', 3);
 
-$file_path = 'data/Nes/nes.modified.xml';
+$file_path = 'temp.bk.xml';
 $file_handle = fopen ( __DIR__ . '/' . $file_path, 'r');
 $file_data = fread ($file_handle, filesize (__DIR__ . '/' . $file_path));
 
@@ -15,19 +15,19 @@ $xml_data = simplexml_load_string ($file_data);
 
 $final_results = array ();
 
-foreach ($xml_data->game as $release) {
+foreach ($xml_data->game as $game) {
 
-  foreach ($release as $key => $entry) {
+  foreach ($game as $key => $cartridge) {
 
-    $releaseData = $database->select ('releases', ['id', 'game_id'], ['name' => (string) $entry->title]);
+    $releaseData = $database->select ('releases', ['id', 'game_id'], ['name' => (string) $cartridge->title]);
 
     if (!empty ($releaseData)) {
       // Releases by this name exists
-      $final_results[] = 'Release for this title exists:' . (string) $entry->title;
+      $final_results[] = 'Release for this title exists:' . (string) $cartridge->title;
     } else {
 
       try {
-        $region_id = get_region_id ( (string) $entry->region, $database);
+        $region_id = get_region_id ( (string) $cartridge->region, $database);
 
       } catch (Exception $e) {
         if ($e->getMessage () == RESULTS_ZERO) {
@@ -39,33 +39,33 @@ foreach ($xml_data->game as $release) {
       }
 
       try {
-        $company_id = get_company_id ( (string) $entry->manufacturer, $database);
+        $company_id = get_company_id ( (string) $cartridge->manufacturer, $database);
       } catch (Exception $e) {
         if ($e->getMessage () == RESULTS_ZERO) {
-          $company_id = $database->insert ('companies', ['name' => (string) $entry->manufacturer]);
-          $final_results[] = 'Added a new company: ' . $entry->manufacturer;
+          $company_id = $database->insert ('companies', ['name' => (string) $cartridge->manufacturer]);
+          $final_results[] = 'Added a new company: ' . $cartridge->manufacturer;
         } else {
           throw $e;
         }
       }
 
       try {
-        $maturity_rating_type_id = get_maturity_rating_id ( (string) $entry->rating, $database);
+        $maturity_rating_type_id = get_maturity_rating_id ( (string) $cartridge->rating, $database);
       } catch (Exception $e) {
         if ($e->getMessage () == RESULTS_ZERO) {
-          $maturity_rating_type_id = $database->insert ('types', ['name' => (string) $entry->rating, 'category_id' => 4]);
-          $final_results[] = 'Added a new rating: ' . $entry->rating;
+          $maturity_rating_type_id = $database->insert ('types', ['name' => (string) $cartridge->rating, 'category_id' => 4]);
+          $final_results[] = 'Added a new rating: ' . $cartridge->rating;
         } else {
           throw $e;
         }
       }
 
       try {
-        $genre_id = get_genre_id ( (string) $entry->genre, $database);
+        $genre_id = get_genre_id ( (string) $cartridge->genre, $database);
       } catch (Exception $e) {
         if ($e->getMessage () == RESULTS_ZERO) {
-          $genre_id = $database->insert ('types', ['name' => (string) $entry->genre, 'category_id' => 3]);
-          $final_results[] = 'Added a new genre: ' . $entry->genre;
+          $genre_id = $database->insert ('types', ['name' => (string) $cartridge->genre, 'category_id' => 3]);
+          $final_results[] = 'Added a new genre: ' . $cartridge->genre;
         } else {
           throw $e;
         }
@@ -73,16 +73,16 @@ foreach ($xml_data->game as $release) {
 
       if (DEBUG == true) {
         $last_game_id = $database->debug ()->insert ('games', [
-          'description' => (string) $entry->title,
+          'description' => (string) $cartridge->title,
         ]);
 
         $last_games_genres = $database->debug ()->insert ('games_genres', [
-          'genre_type_id' => get_genre_id ( (string) $entry->genre, $database),
+          'genre_type_id' => get_genre_id ( (string) $cartridge->genre, $database),
           'game_id' => (int) $last_game_id,
         ]);
 
         $last_releases_id = $database->debug ()->insert ('releases', [
-          'name' => (string) $entry->title,
+          'name' => (string) $cartridge->title,
           'game_id' => (int) $last_game_id,
           'region_type_id' => (int) $region_id,
           'maturity_rating_type_id' => (int) $maturity_rating_type_id,
@@ -101,18 +101,18 @@ foreach ($xml_data->game as $release) {
         ]);
 
         $last_games_genres = $database->insert ('games_genres', [
-          'genre_type_id' => get_genre_id ( (string) $entry->genre, $database),
+          'genre_type_id' => get_genre_id ( (string) $cartridge->genre, $database),
           'game_id' => (int) $last_game_id,
         ]);
 
         $last_releases_id = $database->insert ('releases', [
-          'name' => (string) $entry->title,
+          'name' => (string) $cartridge->title,
           'game_id' => (int) $last_game_id,
           'region_type_id' => (int) $region_id,
           'maturity_rating_type_id' => (int) $maturity_rating_type_id,
           'release_date' => (string) $entry->year,
-          'prototype' => (int) $entry->prototype,
-          'unlicensed' => (int) $entry->unlicensed,
+          'prototype' => (int) $cartridge->prototype,
+          'unlicensed' => (int) $cartridge->unlicensed,
         ]);
 
         $last_companies_releases = $database->insert ('companies_releases', [
