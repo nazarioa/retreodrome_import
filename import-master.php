@@ -59,6 +59,15 @@ foreach ($xml_data->game as $game) {
 
     // Associating Companies
     // companies are processed after cartridge insert
+    foreach ($companies as $company) {
+      $company_role_type_id = get_type ( (string) $company['type'], CREATION_ROLE, $database, true);
+      $company_id = get_company_id ($company->company, $database, true);
+      $database->insert ('cartridges_consoles', [
+        'console_id' => (int) $console_id,
+        'cartridge_id' => (int) $last_cartridge_id,
+        'company_role_type_id' => (int) $company_role_type_id,
+      ]);
+    }
 
     // Associating Releases
     // releases are processed after cartridge insert
