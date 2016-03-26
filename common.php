@@ -121,17 +121,17 @@ function set_company_id ($name, &$database) {
 function get_console_id ($name, &$database, $insert = false) {
   $console_id = $database->select ('consoles', ['id'], ['name [=]' => (string) $name]);
 
-  if ( count ($company_id) == 1) {
-    return $company_id[0]['id'];
+  if ( count ($console_id) == 1) {
+    return $console_id[0]['id'];
   } elseif (DEBUG == true) {
     return 1;
-  } elseif ( count ($company_id) > 1) {
+  } elseif ( count ($console_id) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif ( count ($company_id) < 1 ) {
-    $company_id = set_company_id ($name, $database);
+  } elseif ( count ($console_id) < 1 ) {
+    $console_id = set_company_id ($name, $database);
   }
 
-  return $company_id;
+  return $console_id;
 }
 
 function set_console_id ($name, &$database) {
