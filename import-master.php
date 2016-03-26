@@ -44,8 +44,8 @@ foreach ($xml_data->game as $game) {
 
     $last_cartridge_id = $database->insert ('cartridges', [
       'game_id' => (int) $last_game_id,
-      'name' => (string) $title,
       'region_type_id' => (int) $region_type_id,
+      'name' => (string) $title,
       'game_default' => (int) $game_default,
       'disabled' => NO,
       'license' => (int) $license,
@@ -96,6 +96,16 @@ foreach ($xml_data->game as $game) {
         'release_date' => (string) $release->release_date,
         'quantities_shipped' => (int) $quantities_shipped,
       ]);
+
+      foreach ($release->boxart as $media) {
+        $last_media_id = $database->insert ('media', [
+          'foreign_id ' => (int) $last_release_id,
+          'foreign_type ' =>  $media['foreign_type'],
+          'file_name ' => (string) $media,
+          'role ' => $media['role'],
+          'mime_type ' => $media['mime'],
+        ]);
+      }
     }
   }
 }
