@@ -7,16 +7,17 @@
     <cartridge primary="Y">
       <title>3-D Tetris</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/3-d-tetris-usa-front.png</front>
-        <back>/files/cartridge/#/back/3-d-tetris-usa-back.png</back>
-        <box>/files/cartridge/#/box/3-d-tetris-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">3-d-tetris-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">3-d-tetris-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">3-d-tetris-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -33,16 +34,17 @@
     <cartridge primary="Y">
       <title>Galactic Pinball</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/galactic-pinball-usa-front.png</front>
-        <back>/files/cartridge/#/back/galactic-pinball-usa-back.png</back>
-        <box>/files/cartridge/#/box/galactic-pinball-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">galactic-pinball-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">galactic-pinball-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">galactic-pinball-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -59,16 +61,17 @@
     <cartridge primary="Y">
       <title>Golf</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/golf-usa-front.png</front>
-        <back>/files/cartridge/#/back/golf-usa-back.png</back>
-        <box>/files/cartridge/#/box/golf-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">golf-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">golf-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">golf-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -85,16 +88,17 @@
     <cartridge primary="Y">
       <title>Innsmouth no Yakata</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/innsmouth-no-yakata-usa-front.png</front>
-        <back>/files/cartridge/#/back/innsmouth-no-yakata-usa-back.png</back>
-        <box>/files/cartridge/#/box/innsmouth-no-yakata-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">I'Max</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">innsmouth-no-yakata-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">innsmouth-no-yakata-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">innsmouth-no-yakata-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -111,16 +115,17 @@
     <cartridge primary="Y">
       <title>Jack Bros.</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/jack-bros-usa-front.png</front>
-        <back>/files/cartridge/#/back/jack-bros-usa-back.png</back>
-        <box>/files/cartridge/#/box/jack-bros-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Atlus Co.</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">jack-bros-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">jack-bros-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">jack-bros-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -137,16 +142,17 @@
     <cartridge primary="Y">
       <title>Mario Clash</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/mario-clash-usa-front.png</front>
-        <back>/files/cartridge/#/back/mario-clash-usa-back.png</back>
-        <box>/files/cartridge/#/box/mario-clash-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">mario-clash-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">mario-clash-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">mario-clash-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -163,16 +169,17 @@
     <cartridge primary="Y">
       <title>Mario's Tennis</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/marios-tennis-usa-front.png</front>
-        <back>/files/cartridge/#/back/marios-tennis-usa-back.png</back>
-        <box>/files/cartridge/#/box/marios-tennis-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">marios-tennis-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">marios-tennis-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">marios-tennis-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -189,16 +196,17 @@
     <cartridge primary="Y">
       <title>Nester's Funky Bowling</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/nesters-funky-bowling-usa-front.png</front>
-        <back>/files/cartridge/#/back/nesters-funky-bowling-usa-back.png</back>
-        <box>/files/cartridge/#/box/nesters-funky-bowling-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">nesters-funky-bowling-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">nesters-funky-bowling-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">nesters-funky-bowling-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -215,16 +223,17 @@
     <cartridge primary="Y">
       <title>Panic Bomber</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/panic-bomber-usa-front.png</front>
-        <back>/files/cartridge/#/back/panic-bomber-usa-back.png</back>
-        <box>/files/cartridge/#/box/panic-bomber-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Hudson Soft Co., Ltd.</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">panic-bomber-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">panic-bomber-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">panic-bomber-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -241,16 +250,17 @@
     <cartridge primary="Y">
       <title>Red Alarm</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/red-alarm-usa-front.png</front>
-        <back>/files/cartridge/#/back/red-alarm-usa-back.png</back>
-        <box>/files/cartridge/#/box/red-alarm-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">red-alarm-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">red-alarm-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">red-alarm-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -267,16 +277,17 @@
     <cartridge primary="Y">
       <title>SD Gundam - Dimension War</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/sd-gundam-dimension-war-usa-front.png</front>
-        <back>/files/cartridge/#/back/sd-gundam-dimension-war-usa-back.png</back>
-        <box>/files/cartridge/#/box/sd-gundam-dimension-war-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Bandai</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">sd-gundam-dimension-war-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">sd-gundam-dimension-war-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">sd-gundam-dimension-war-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -293,16 +304,17 @@
     <cartridge primary="Y">
       <title>Space Invaders - Virtual Collection</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/space-invaders-virtual-collection-usa-front.png</front>
-        <back>/files/cartridge/#/back/space-invaders-virtual-collection-usa-back.png</back>
-        <box>/files/cartridge/#/box/space-invaders-virtual-collection-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Taito Software, Inc.</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">space-invaders-virtual-collection-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">space-invaders-virtual-collection-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">space-invaders-virtual-collection-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -319,16 +331,17 @@
     <cartridge primary="Y">
       <title>Teleroboxer</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/teleroboxer-usa-front.png</front>
-        <back>/files/cartridge/#/back/teleroboxer-usa-back.png</back>
-        <box>/files/cartridge/#/box/teleroboxer-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">teleroboxer-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">teleroboxer-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">teleroboxer-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -345,16 +358,17 @@
     <cartridge primary="Y">
       <title>V-Tetris</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/v-tetris-usa-front.png</front>
-        <back>/files/cartridge/#/back/v-tetris-usa-back.png</back>
-        <box>/files/cartridge/#/box/v-tetris-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Bullet-Proof Software</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">v-tetris-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">v-tetris-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">v-tetris-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -371,16 +385,17 @@
     <cartridge primary="Y">
       <title>Vertical Force</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/vertical-force-usa-front.png</front>
-        <back>/files/cartridge/#/back/vertical-force-usa-back.png</back>
-        <box>/files/cartridge/#/box/vertical-force-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">vertical-force-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">vertical-force-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">vertical-force-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -397,16 +412,17 @@
     <cartridge primary="Y">
       <title>Virtual Bowling</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/virtual-bowling-usa-front.png</front>
-        <back>/files/cartridge/#/back/virtual-bowling-usa-back.png</back>
-        <box>/files/cartridge/#/box/virtual-bowling-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Ocean Software of America, Inc.</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">virtual-bowling-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">virtual-bowling-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">virtual-bowling-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -423,16 +439,17 @@
     <cartridge primary="Y">
       <title>Virtual Boy Wario Land</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/virtual-boy-wario-land-usa-front.png</front>
-        <back>/files/cartridge/#/back/virtual-boy-wario-land-usa-back.png</back>
-        <box>/files/cartridge/#/box/virtual-boy-wario-land-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">virtual-boy-wario-land-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">virtual-boy-wario-land-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">virtual-boy-wario-land-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -449,16 +466,17 @@
     <cartridge primary="Y">
       <title>Virtual Lab</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/virtual-lab-usa-front.png</front>
-        <back>/files/cartridge/#/back/virtual-lab-usa-back.png</back>
-        <box>/files/cartridge/#/box/virtual-lab-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">J-Wing</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">virtual-lab-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">virtual-lab-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">virtual-lab-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -475,16 +493,17 @@
     <cartridge primary="Y">
       <title>Virtual League Baseball</title>
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/virtual-league-baseball-usa-front.png</front>
-        <back>/files/cartridge/#/back/virtual-league-baseball-usa-back.png</back>
-        <box>/files/cartridge/#/box/virtual-league-baseball-usa-box.png</box>
-      </boxart>
       <companies>
         <company type="publisher">Kemco</company>
       </companies>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">virtual-league-baseball-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">virtual-league-baseball-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">virtual-league-baseball-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -501,16 +520,17 @@
     <company type="publisher">Ocean Software of America, Inc.</company>
     <cartridge primary="Y">
       <region>NTSC</region>
-      <boxart>
-        <front>/files/cartridge/#/front/waterworld-usa-front.png</front>
-        <back>/files/cartridge/#/back/waterworld-usa-back.png</back>
-        <box>/files/cartridge/#/box/waterworld-usa-box.png</box>
-      </boxart>
       <companies>
       </companies>
       <title>Waterworld</title>
       <releases>
         <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">waterworld-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">waterworld-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">waterworld-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
         </release>
