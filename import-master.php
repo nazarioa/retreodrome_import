@@ -37,6 +37,10 @@ foreach ($xml_data->game as $game) {
     $title = $cartridge->title;
     $region_type_id = get_region_id ($cartridge->region, $database, true);
     $game_default = ( !empty ($cartridge['primary']) && 'Y' == $cartridge['primary'] ) ?  YES : NO;
+    $license = truthy ($cartridge->license);
+    $demo = truthy ($cartridge->demo);
+    $prototype = truthy ($cartridge->prototype);
+    $special = truthy ($cartridge->special);
 
     $last_cartridge_id = $database->insert ('cartridges', [
       'game_id' => (int) $last_game_id,
@@ -44,6 +48,10 @@ foreach ($xml_data->game as $game) {
       'region_type_id' => (int) $region_type_id,
       'game_default' => (int) $game_default,
       'disabled' => NO,
+      'license' => (int) $license,
+      'demo' => (int) $demo,
+      'prototype' => (int) $prototype,
+      'special' => (int) $special,
     ]);
 
     // Associating Boaxart
@@ -75,21 +83,18 @@ foreach ($xml_data->game as $game) {
     // Associating Releases
     // releases are processed after cartridge insert
     foreach ($releases as $release) {
-      // TODO: Maybe Licemse
-      // TODO: Maybe Demo
-      // TODO: Maybe Special
-      // TODO: Maybe Prototype
-      // TODO: Maybe Offical
-      // TODO: Maybe Shipped Quantities
-
       $country_type_id = get_type ( (string) $release->country, COUNTRIES, $database, true);
       $maturity_rating_type_id = get_maturity_rating_id ($release->rating, $database, true);
+      $is_official_release = truthy ($release->offical);
+      $quantities_shipped = (int) $release->shipped;
 
-      $database->insert ('cartridges_consoles', [
+      $last_release_id = $database->insert ('release', [
         'cartridge_id' => (int) $last_cartridge_id,
-        'country_id' => (int) $country_type_id,
-        'release_date' => (string) $release->release_date,
+        'country_type_id' => (int) $country_type_id,
         'maturity_rating_type_id' => (int) $maturity_rating_type_id,
+        'is_official_release' => (int) $is_official_release,
+        'release_date' => (string) $release->release_date,
+        'quantities_shipped' => (int) $quantities_shipped,
       ]);
     }
   }
