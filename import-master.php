@@ -14,7 +14,7 @@ $xml_data = simplexml_load_string ($file_data);
 
 $final_results = array ();
 
-foreach ($xml_data->game as $game) {
+foreach ($xml_data as $game) {
 
   // Create a Game entry, no need to check if this
   // game exists already since the database is empty.
