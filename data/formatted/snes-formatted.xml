@@ -359,7 +359,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Adventures of Batman & Robin, The</title>
+      <title>Adventures of Batman &amp; Robin, The</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Konami</company>
@@ -1118,7 +1118,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Asterix & Obelix</title>
+      <title>Asterix &amp; Obelix</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Infogrames</company>
@@ -1607,7 +1607,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Battletoads & Double Dragon</title>
+      <title>Battletoads &amp; Double Dragon</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Tradewest</company>
@@ -3214,7 +3214,7 @@
       <genre>Shooter</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Choplifter III - Rescue & Survive</title>
+      <title>Choplifter III - Rescue &amp; Survive</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Victor Interactive Software</company>
@@ -4098,7 +4098,7 @@
       <genre>Sports</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Dig & Spike Volleyball</title>
+      <title>Dig &amp; Spike Volleyball</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Hudson Soft Co., Ltd.</company>
@@ -5102,7 +5102,7 @@
       <genre>Driving</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Exertainment Mountain Bike Rally & Speed Racer</title>
+      <title>Exertainment Mountain Bike Rally &amp; Speed Racer</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Life Fitness</company>
@@ -6516,7 +6516,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Great Circus Mystery Starring Mickey & Minnie, The</title>
+      <title>Great Circus Mystery Starring Mickey &amp; Minnie, The</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Capcom</company>
@@ -7524,7 +7524,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Itchy & Scratchy Game, The</title>
+      <title>Itchy &amp; Scratchy Game, The</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Acclaim Entertainment, Inc.</company>
@@ -7959,7 +7959,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Joe & Mac</title>
+      <title>Joe &amp; Mac</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Data East</company>
@@ -7986,7 +7986,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Joe & Mac 2 - Lost in the Tropics</title>
+      <title>Joe &amp; Mac 2 - Lost in the Tropics</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Data East</company>
@@ -8529,7 +8529,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>King Arthur & The Knights of Justice</title>
+      <title>King Arthur &amp; The Knights of Justice</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Enix Corporation</company>
@@ -9366,7 +9366,7 @@
       <genre>Role-Playing</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Lufia & The Fortress of Doom</title>
+      <title>Lufia &amp; The Fortress of Doom</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Taito Software, Inc.</company>
@@ -9969,7 +9969,7 @@
       <title>Math Blaster - Episode 1</title>
       <region>NTSC</region>
       <companies>
-        <company type="publisher">Davidson & Associates</company>
+        <company type="publisher">Davidson &amp; Associates</company>
       </companies>
       <releases>
         <release>
@@ -10824,7 +10824,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Mohawk & Headphone Jack</title>
+      <title>Mohawk &amp; Headphone Jack</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Black Pearl Software</company>
@@ -12527,7 +12527,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Packy & Marlon</title>
+      <title>Packy &amp; Marlon</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Raya Systems</company>
@@ -13097,7 +13097,7 @@
       <genre>Shooter</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Pocky & Rocky</title>
+      <title>Pocky &amp; Rocky</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Natsume</company>
@@ -13124,7 +13124,7 @@
       <genre>Shooter</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Pocky & Rocky 2</title>
+      <title>Pocky &amp; Rocky 2</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Natsume</company>
@@ -13529,7 +13529,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Prince of Persia 2 - The Shadow & The Flame</title>
+      <title>Prince of Persia 2 - The Shadow &amp; The Flame</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Titus Software</company>
@@ -13747,7 +13747,7 @@
       <genre>Driving</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Race Drivin&apos</title>
+      <title>Race Drivin&amp;apos</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -13755,9 +13755,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">race-drivin&apos-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">race-drivin&apos-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">race-drivin&apos-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">race-drivin&amp;apos-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">race-drivin&amp;apos-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">race-drivin&amp;apos-usa-box.png</media>
           </boxart>
           <country>USA</country>
           <release_date>1992-01-01</release_date>
@@ -13992,7 +13992,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Ren & Stimpy Show, The - Buckeroos</title>
+      <title>Ren &amp; Stimpy Show, The - Buckeroos</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -14019,7 +14019,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Ren & Stimpy Show, The - Fire Dogs</title>
+      <title>Ren &amp; Stimpy Show, The - Fire Dogs</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -14046,7 +14046,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Ren & Stimpy Show, The - Time Warp</title>
+      <title>Ren &amp; Stimpy Show, The - Time Warp</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -14073,7 +14073,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Ren & Stimpy Show, The - Veediots</title>
+      <title>Ren &amp; Stimpy Show, The - Veediots</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -15881,7 +15881,7 @@
       <genre>Fighting</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Spider-Man & Venom - Maximum Carnage</title>
+      <title>Spider-Man &amp; Venom - Maximum Carnage</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">LJN Ltd.</company>
@@ -15908,7 +15908,7 @@
       <genre>Fighting</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Spider-Man & Venom - Separation Anxiety</title>
+      <title>Spider-Man &amp; Venom - Separation Anxiety</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Acclaim Entertainment, Inc.</company>
@@ -16044,7 +16044,7 @@
       <genre>Sports</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Sports Illustrated Championship Football & Baseball</title>
+      <title>Sports Illustrated Championship Football &amp; Baseball</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Malibu Games</company>
@@ -18987,7 +18987,7 @@
       <genre>Puzzle</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Tetris & Dr. Mario</title>
+      <title>Tetris &amp; Dr. Mario</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Nintendo</company>
@@ -19257,7 +19257,7 @@
       <genre>Puzzle</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Timon & Pumbaa's Jungle Games</title>
+      <title>Timon &amp; Pumbaa's Jungle Games</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">THQ</company>
@@ -19502,7 +19502,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Tom & Jerry</title>
+      <title>Tom &amp; Jerry</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Hi Tech Expressions</company>
@@ -19805,7 +19805,7 @@
       <title>True Golf Classics - Pebble Beach Golf Links</title>
       <region>NTSC</region>
       <companies>
-        <company type="publisher">T&E Soft</company>
+        <company type="publisher">T&amp;E Soft</company>
       </companies>
       <releases>
         <release>
@@ -19833,7 +19833,7 @@
       <title>True Golf Classics - Waialae Country Club</title>
       <region>NTSC</region>
       <companies>
-        <company type="publisher">T&E Soft</company>
+        <company type="publisher">T&amp;E Soft</company>
       </companies>
       <releases>
         <release>
