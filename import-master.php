@@ -16,12 +16,14 @@ $final_results = array ();
 
 foreach ($xml_data->game as $game) {
 
+  // Create a Game entry, no need to check if this
+  // game exists already since the database is empty.
   $last_game_id = $database->insert ('games', [
     'description' => (string) $game->title,
     'disabled' => NO,
   ]);
 
-  // Associating Genres
+  // Associating Genres with current game.
   foreach ($game->genres as $genre) {
     $last_genre_id = get_genre ($genre->genre, $database, true);
     $database->insert ('games_genres', [
@@ -30,7 +32,7 @@ foreach ($xml_data->game as $game) {
     ]);
   }
 
-  // Associating Cartridges
+  // Associating "Cartridges" with current game.
   foreach ($game->cartridge as $cartridge) {
     $title = $cartridge->title;
     $region_type_id = get_region_id ($cartridge->region, $database, true);
