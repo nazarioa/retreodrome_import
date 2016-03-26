@@ -194,3 +194,11 @@ function get_category ($category_name, &$database) {
 
   throw new Exception (RESULTS_INVALID, 1);
 }
+
+function truthy ($input) {
+  if ($input == 'Y') {
+    return YES;
+  }
+
+  return NO;
+}
