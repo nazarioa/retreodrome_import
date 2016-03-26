@@ -18,7 +18,7 @@ define ('NO', 0);
 
 // Helper functions
 
-function get_region_id ( (string) $name, &$database, $insert = false) {
+function get_region_id ($name, &$database, $insert = false) {
   try {
     $region_id = get_type ($name, REGIONS, $database);
   } catch (Exception $e) {
@@ -37,7 +37,7 @@ function set_region_id ($name, &$database) {
 }
 
 
-function get_maturity_rating_id ( (string) $name, &$database, $insert = false) {
+function get_maturity_rating_id ( $name, &$database, $insert = false) {
   try {
     $maturity_rating_type_id = get_type ($name, MATURITY_RATING, $database);
   } catch (Exception $e) {
@@ -51,7 +51,7 @@ function get_maturity_rating_id ( (string) $name, &$database, $insert = false) {
   return $maturity_rating_type_id;
 }
 
-function set_maturity_rating_id ( (string) $name, &$database) {
+function set_maturity_rating_id ($name, &$database) {
   return set_type ($name, MATURITY_RATING, $database);
 }
 
@@ -70,12 +70,12 @@ function get_mechanics_id ($name, &$database, $insert = false) {
   return $mechanics_id;
 }
 
-function set_mechanics_id ( (string) $name, &$database) {
+function set_mechanics_id ($name, &$database) {
   return set_type ($name, MECHANICS, $database);
 }
 
 
-function get_genre_id ( (string) $name, &$database, $insert = false) {
+function get_genre_id ($name, &$database, $insert = false) {
   try {
     $genre_id = get_type ($name, GENRES, $database);
   } catch (Exception $e) {
@@ -89,12 +89,12 @@ function get_genre_id ( (string) $name, &$database, $insert = false) {
   return $genre_id;
 }
 
-function set_genre_id ( (string) $name, &$database) {
+function set_genre_id ($name, &$database) {
   return set_type ($name, GENRES, $database);
 }
 
 
-function get_company_id ( (string) $name, &$database, $insert = false) {
+function get_company_id ($name, &$database, $insert = false) {
   $company_id = $database->select ('companies', ['id'], ['name [~]' => (string) $name]);
 
   if ( count ($company_id) == 1) {
@@ -110,7 +110,7 @@ function get_company_id ( (string) $name, &$database, $insert = false) {
   return $company_id;
 }
 
-function set_company_id ( (string) $name, &$database) {
+function set_company_id ($name, &$database) {
   $company_id = $database->insert ('companies', [
     'name' => (string) $name,
   ]);
@@ -118,7 +118,7 @@ function set_company_id ( (string) $name, &$database) {
 }
 
 
-function get_console_id ( (string) $name, &$database, $insert = false) {
+function get_console_id ($name, &$database, $insert = false) {
   $console_id = $database->select ('consoles', ['id'], ['name [=]' => (string) $name]);
 
   if ( count ($company_id) == 1) {
@@ -134,7 +134,7 @@ function get_console_id ( (string) $name, &$database, $insert = false) {
   return $company_id;
 }
 
-function set_console_id ( (string) $name, &$database) {
+function set_console_id ($name, &$database) {
   $company_id = $database->insert ('consoles', [
     'name' => (string) $name,
   ]);
@@ -142,7 +142,7 @@ function set_console_id ( (string) $name, &$database) {
 }
 
 
-function get_type ( (string) $type_name, $category_name, &$database, $insert = false) {
+function get_type ($type_name, $category_name, &$database, $insert = false) {
   try {
     $category = get_category ($category_name, $database);
   } catch (Exception $e) {
@@ -164,7 +164,7 @@ function get_type ( (string) $type_name, $category_name, &$database, $insert = f
   throw new Exception (RESULTS_INVALID, 1);
 }
 
-function set_type ( (string) $name, $category, &$database) {
+function set_type ($name, $category, &$database) {
   try {
     $category_id = get_category($category, $database);
   } catch (Exception $e) {
@@ -179,7 +179,7 @@ function set_type ( (string) $name, $category, &$database) {
   return $type_id;
 }
 
-function get_category ( (string) $category_name, &$database) {
+function get_category ($category_name, &$database) {
   $category_id = $database->select ('categories', ['id'], ['name [~]' => (string) $category_name, ]);
 
   if ( count ($category_id) == 1) {
