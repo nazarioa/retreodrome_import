@@ -1,0 +1,48 @@
+<games>
+  <game>
+    <genres>
+      <genre>Platform</genre>
+      <genre>Side-Scroller</genre>
+    </genres>
+    <cartridge primary="Y">
+      <title>Super Mario Bros. 3</title>
+      <official>Y</official>
+      <region>ALL</region>
+      <license>Y</license>
+      <demo>N</demo>
+      <special>N</special>
+      <prototype>N</prototype>
+      <companies>
+        <company type="developer">Nintendo</company>
+        <company type="publisher">Nintendo</company>
+      </companies>
+      <releases>
+        <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-bros-3-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-bros-3-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-3-usa-box.png</media>
+          </boxart>
+          <country>USA</country>
+          <release_date>1990-01-01</release_date>
+          <rating>RP</rating>
+          <shipped>7000000</shipped>
+        </release>
+        <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-bros-3-jap-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-bros-3-jap-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-3-jap-box.png</box>
+          </boxart>
+          <country>JAP</country>
+          <release_date>1988-01-01</release_date>
+          <rating>RP</rating>
+          <shipped>4000000</shipped>
+        </release>
+      </releases>
+      <consoles>
+        <console>NES</console>
+      </consoles>
+    </cartridge>
+  </game>
+</games>
