@@ -12,8 +12,6 @@ $file_data = fread ($file_handle, filesize (__DIR__ . '/' . $file_path));
 
 $xml_data = simplexml_load_string ($file_data);
 
-$final_results = array ();
-
 foreach ($xml_data as $game) {
 
   // Create a Game entry, no need to check if this
@@ -57,10 +55,6 @@ foreach ($xml_data as $game) {
       'special' => (int) $special,
     ]);
     check_database_error($database);
-
-    // Associating Boaxart
-    // boaxart are processed after cartridge insert
-    // TODO: Box Art / Database design for it.
 
     // Associating Consoles
     // consoles are processed after cartridge insert
@@ -114,8 +108,4 @@ foreach ($xml_data as $game) {
     }
   }
 }
-
-echo PHP_EOL;
-print_r ($final_results);
-
 ?>

@@ -50,7 +50,6 @@ function set_region_id ($name, &$database) {
   return set_type ($name, REGIONS, $database);
 }
 
-
 function get_maturity_rating_id ( $name, &$database, $insert = false) {
   try {
     $maturity_rating_type_id = get_type ($name, MATURITY_RATING, $database);
@@ -68,7 +67,6 @@ function get_maturity_rating_id ( $name, &$database, $insert = false) {
 function set_maturity_rating_id ($name, &$database) {
   return set_type ($name, MATURITY_RATING, $database);
 }
-
 
 function get_mechanics_id ($name, &$database, $insert = false) {
   try {
@@ -88,7 +86,6 @@ function set_mechanics_id ($name, &$database) {
   return set_type ($name, MECHANICS, $database);
 }
 
-
 function get_genre_id ($name, &$database, $insert = false) {
   try {
     $genre_id = get_type ($name, GENRES, $database);
@@ -106,7 +103,6 @@ function get_genre_id ($name, &$database, $insert = false) {
 function set_genre_id ($name, &$database) {
   return set_type ($name, GENRES, $database);
 }
-
 
 function get_company_id ($name, &$database, $insert = false) {
   $company_id = $database->select ('companies', ['id'], ['name [~]' => (string) $name]);
@@ -129,7 +125,6 @@ function set_company_id ($name, &$database) {
   return $company_id;
 }
 
-
 function get_console_id ($name, &$database, $insert = false) {
   $console_id = $database->select ('consoles', ['id'], ['name [=]' => (string) $name]);
 
@@ -150,7 +145,6 @@ function set_console_id ($name, &$database) {
   ]);
   return $console_id;
 }
-
 
 function get_type ($type_name, $category_name, &$database, $insert = false) {
   try {
