@@ -223,10 +223,12 @@ function check_database_error (&$database) {
   $error_message = $database->error()[2];
 
   if($error_code == 1054){
-    Throw new Exception ($error_message);
+    $error_last_query = $database->last_query();
+    Throw new Exception ($error_message . "\n" . $error_last_query);
   } elseif($error_code == 0) {
     return true;
   } else {
-    Throw new Exception ('Some other error:' . $error_code . ' ' . $error_message);
+    $error_last_query = $database->last_query();
+    Throw new Exception ('Some other error:' . $error_code . ' ' . $error_message . "\n" . $error_last_query);
   }
 }
