@@ -3,6 +3,7 @@ define ('RESULTS_MULTIPLE', 'Found >1');
 define ('RESULTS_ZERO', 'Found 0');
 define ('RESULTS_INVALID', 'Invalid Results');
 
+// __Category Names__
 define ('MECHANICS', 'Mechanic');
 define ('GENRES', 'Genre');
 define ('MATURITY_RATING', 'Maturity Rating');
