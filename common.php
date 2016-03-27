@@ -210,3 +210,12 @@ function truthy ($input) {
 
   return NO;
 }
+
+
+function check_database_error (&$database) {
+  $error_code = $database->error()[1];
+  $error_message = $database->error()[2];
+  if($error_code == '1054'){
+    Throw new Exception ($error_message);
+  }
+}
