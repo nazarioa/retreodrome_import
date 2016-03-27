@@ -104,19 +104,23 @@ foreach ($xml_data as $game) {
       // Associating Boaxart
       // boaxart are processed after cartridge insert
       // TODO: Box Art / Database design for it.
-      // foreach ($release->release->boxart as $media) {
-      //   $file_name = $media->media;
-      //
-      //   $last_media_id = $database->insert (TBL_MEDIA, [
-      //     'foreign_id ' => (int) $last_release_id,
-      //     'foreign_type ' =>  (string) $media['foreign_type'],
-      //     'file_name ' => (string) $file_name,
-      //     'role ' => $media['role'],
-      //     'mime_type ' => $media['mime'],
-      //     'description ' => $media['foreign_type'] . '-' . $media['role'] . '-' . $file_name,
-      //   ]);
-      //   check_database_error($database);
-      // }
+      foreach ($release->release->boxart->media as $media) {
+        $file_name = (string) $media;
+        $foreign_type = (string) $media['foreign_type'];
+        $role = (string) $media['role'];
+        $mime_type = (string) $media['mime'];
+        $description = $foreign_type . '-' . $role . '-' . $file_name;
+
+        $last_media_id = $database->insert (TBL_MEDIA, [
+          'foreign_id' => $last_release_id,
+          'foreign_type' => $foreign_type,
+          'file_name' => $file_name,
+          'role' => $role,
+          'mime_type' => $mime_type,
+          'description' => $description,
+        ]);
+        check_database_error($database);
+      }
     }
   }
 }
