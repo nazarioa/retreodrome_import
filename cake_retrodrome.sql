@@ -11,7 +11,7 @@
  Target Server Version : 50626
  File Encoding         : utf-8
 
- Date: 03/27/2016 01:58:02 AM
+ Date: 03/27/2016 03:06:22 AM
 */
 
 SET NAMES utf8;
@@ -35,7 +35,14 @@ CREATE TABLE `cartridges` (
   `license` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `game_default` (`id`,`game_default`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `cartridges`
+-- ----------------------------
+BEGIN;
+INSERT INTO `cartridges` VALUES ('1', '1', '1', '**DEAD**', '**DEAD**', '1', '1', '1', '1', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `cartridges_companies`
@@ -48,7 +55,14 @@ CREATE TABLE `cartridges_companies` (
   `company_role_type_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique` (`cartridge_id`,`company_id`,`company_role_type_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `cartridges_companies`
+-- ----------------------------
+BEGIN;
+INSERT INTO `cartridges_companies` VALUES ('1', '1', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `cartridges_consoles`
@@ -59,7 +73,14 @@ CREATE TABLE `cartridges_consoles` (
   `console_id` int(11) DEFAULT NULL,
   `cartridge_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `cartridges_consoles`
+-- ----------------------------
+BEGIN;
+INSERT INTO `cartridges_consoles` VALUES ('1', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `categories`
@@ -92,7 +113,14 @@ CREATE TABLE `companies` (
   `business_start_date` date DEFAULT NULL,
   `business_end_date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `companies`
+-- ----------------------------
+BEGIN;
+INSERT INTO `companies` VALUES ('1', '**DEAD**', '**DEAD**', null, null, null, null);
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `companies_consoles`
@@ -104,7 +132,14 @@ CREATE TABLE `companies_consoles` (
   `company_id` int(11) DEFAULT NULL,
   `company_role_type_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `companies_consoles`
+-- ----------------------------
+BEGIN;
+INSERT INTO `companies_consoles` VALUES ('1', '1', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `companies_people`
@@ -117,7 +152,14 @@ CREATE TABLE `companies_people` (
   `hire_date` date DEFAULT NULL,
   `termination_date` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `companies_people`
+-- ----------------------------
+BEGIN;
+INSERT INTO `companies_people` VALUES ('1', '1', '1', null, null);
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `consoles`
@@ -133,7 +175,14 @@ CREATE TABLE `consoles` (
   `life_end_date` date DEFAULT NULL,
   `short_name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `consoles`
+-- ----------------------------
+BEGIN;
+INSERT INTO `consoles` VALUES ('1', '**DEAD**', null, null, '**DEAD**', null, null, '**DEAD**');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `games`
@@ -146,7 +195,14 @@ CREATE TABLE `games` (
   `mechanics_category_id` int(11) DEFAULT NULL,
   `disabled` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `games`
+-- ----------------------------
+BEGIN;
+INSERT INTO `games` VALUES ('1', '1', '**DEAD**', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `games_genres`
@@ -158,7 +214,14 @@ CREATE TABLE `games_genres` (
   `game_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `unique` (`genre_type_id`,`game_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `games_genres`
+-- ----------------------------
+BEGIN;
+INSERT INTO `games_genres` VALUES ('1', '1', '1');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `games_related`
@@ -170,7 +233,14 @@ CREATE TABLE `games_related` (
   `related_game_id` int(11) DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `games_related`
+-- ----------------------------
+BEGIN;
+INSERT INTO `games_related` VALUES ('1', '1', '1', '**DEAD**');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `media`
@@ -179,13 +249,20 @@ DROP TABLE IF EXISTS `media`;
 CREATE TABLE `media` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `foreign_id` int(11) DEFAULT NULL,
-  `foreign_type` int(11) DEFAULT NULL,
+  `foreign_type` varchar(50) DEFAULT NULL,
   `file_name` varchar(255) DEFAULT NULL,
   `role` varchar(50) DEFAULT NULL,
   `mime_type` varchar(50) DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `media`
+-- ----------------------------
+BEGIN;
+INSERT INTO `media` VALUES ('1', '1', '**DEAD**', '**DEAD**', '**DEAD**', '**DEAD**', '**DEAD**');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `people`
@@ -198,7 +275,14 @@ CREATE TABLE `people` (
   `title` varchar(255) DEFAULT NULL,
   `bio` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `people`
+-- ----------------------------
+BEGIN;
+INSERT INTO `people` VALUES ('1', '**DEAD**', '**DEAD**', '**DEAD**', '**DEAD**');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `releases`
@@ -213,7 +297,14 @@ CREATE TABLE `releases` (
   `is_official_release` int(1) DEFAULT NULL,
   `quantities_shipped` int(12) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `releases`
+-- ----------------------------
+BEGIN;
+INSERT INTO `releases` VALUES ('1', '1', '1', null, null, null, null);
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `series`
@@ -224,7 +315,14 @@ CREATE TABLE `series` (
   `name` varchar(255) DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `series`
+-- ----------------------------
+BEGIN;
+INSERT INTO `series` VALUES ('1', '**DEAD**', '**DEAD**');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `tests`
@@ -275,6 +373,13 @@ CREATE TABLE `users` (
   `active` tinyint(1) DEFAULT NULL,
   `deleted` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `users`
+-- ----------------------------
+BEGIN;
+INSERT INTO `users` VALUES ('1', '**DEAD**', '**DEAD**', '**DEAD**', '**DEAD**', '**DEAD**', null, null, '1', '1');
+COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
