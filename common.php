@@ -185,14 +185,14 @@ function set_type ($name, $category, &$database) {
   return $type_id;
 }
 
-function get_category ($category_name, &$database) {
+function get_category ($category_name, &$database, $insert = false) {
   $category_id = $database->select ('categories', ['id'], ['name [~]' => (string) $category_name, ]);
 
   if ( count ($category_id) == 1) {
     $category_id = $category_id[0];
   } elseif ( count ($category_id) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif ( count ($category_id) < 1 && DEBUG == false) {
+  } elseif ( count ($category_id) < 1 && $insert == true) {
     $category_id = set_category ($category_name, $database);
   } elseif ( count ($category_id) < 1 ) {
     throw new Exception (RESULTS_ZERO, 1);
