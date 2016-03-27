@@ -98,13 +98,11 @@ function get_company_id ($name, &$database, $insert = false) {
   $company_id = $database->select ('companies', ['id'], ['name [~]' => (string) $name]);
 
   if ( count ($company_id) == 1) {
-    return $company_id[0]['id'];
-  } elseif (DEBUG == true) {
-    return 1;
+    $company_id = $company_id[0]['id'];
+  }elseif ( count ($company_id) < 1 && $insert == true) {
+    $company_id = set_company_id ($name, $database);
   } elseif ( count ($company_id) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif ( count ($company_id) < 1 ) {
-    $company_id = set_company_id ($name, $database);
   }
 
   return $company_id;
@@ -122,23 +120,21 @@ function get_console_id ($name, &$database, $insert = false) {
   $console_id = $database->select ('consoles', ['id'], ['name [=]' => (string) $name]);
 
   if ( count ($console_id) == 1) {
-    return $console_id[0]['id'];
-  } elseif (DEBUG == true) {
-    return 1;
+    $console_id = $console_id[0]['id'];
+  }elseif ( count ($console_id) < 1 && $insert == true) {
+    $console_id = set_console_id ($name, $database);
   } elseif ( count ($console_id) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif ( count ($console_id) < 1 ) {
-    $console_id = set_company_id ($name, $database);
   }
 
   return $console_id;
 }
 
 function set_console_id ($name, &$database) {
-  $company_id = $database->insert ('consoles', [
+  $console_id = $database->insert ('consoles', [
     'name' => (string) $name,
   ]);
-  return $company_id;
+  return $console_id;
 }
 
 
@@ -151,17 +147,19 @@ function get_type ($type_name, $category_name, &$database, $insert = false) {
 
   $type = $database->select ('types', ['id'], ['and' => ['category_id [=]' => $category['id'], 'name [~]' => (string) $type_name]]);
 
+  $type_id = null;
   if (count ($type) == 1) {
-    return $type[0]['id'];
-  } elseif (DEBUG == true) {
-    return 1;
+    $type_id = $type[0]['id'];
   } elseif (count ($type) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
+  } elseif (count ($type) < 1 && DEBUG == false) {
+    $type_id = set_type ( (string) $type_name, $category_name, $database);
   } elseif (count ($type) < 1 ) {
     throw new Exception (RESULTS_ZERO, 1);
+  } else {
+    throw new Exception (RESULTS_INVALID, 1);
   }
-
-  throw new Exception (RESULTS_INVALID, 1);
+  return $type_id;
 }
 
 function set_type ($name, $category, &$database) {
@@ -183,16 +181,26 @@ function get_category ($category_name, &$database) {
   $category_id = $database->select ('categories', ['id'], ['name [~]' => (string) $category_name, ]);
 
   if ( count ($category_id) == 1) {
-    return $category_id[0];
-  } elseif (DEBUG == true) {
-    return 1;
-  }elseif ( count ($category_id) > 1) {
+    $category_id = $category_id[0];
+  } elseif ( count ($category_id) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
+  } elseif ( count ($category_id) < 1 && DEBUG == false) {
+    $category_id = set_category ($category_name, $database);
   } elseif ( count ($category_id) < 1 ) {
     throw new Exception (RESULTS_ZERO, 1);
+  } else {
+    throw new Exception (RESULTS_INVALID, 1);
   }
+  return $category_id;
+}
 
-  throw new Exception (RESULTS_INVALID, 1);
+function set_category ($category, &$database) {
+
+  $type_id = $database->insert ('categories', [
+    'name' => (string) $name,
+  ]);
+
+  return $type_id;
 }
 
 function truthy ($input) {
