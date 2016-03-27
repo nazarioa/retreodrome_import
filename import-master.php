@@ -22,6 +22,8 @@ foreach ($xml_data as $game) {
     'description' => (string) $game->title,
     'disabled' => NO,
   ]);
+  check_database_error($database);
+
 
   // Associating Genres with current game.
   foreach ($game->genres as $genre) {
@@ -30,6 +32,7 @@ foreach ($xml_data as $game) {
       'genre_type_id' => $last_genre_id,
       'game_id' => $last_game_id,
     ]);
+    check_database_error($database);
   }
 
   // Associating "Cartridges" with current game.
@@ -53,6 +56,7 @@ foreach ($xml_data as $game) {
       'prototype' => (int) $prototype,
       'special' => (int) $special,
     ]);
+    check_database_error($database);
 
     // Associating Boaxart
     // boaxart are processed after cartridge insert
@@ -105,6 +109,7 @@ foreach ($xml_data as $game) {
           'role ' => $media['role'],
           'mime_type ' => $media['mime'],
         ]);
+        check_database_error($database);
       }
     }
   }
