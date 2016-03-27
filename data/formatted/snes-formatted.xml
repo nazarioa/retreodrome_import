@@ -1,5 +1,5 @@
-<!-- SNES -->
 <games>
+  <!-- SNES -->
   <game>
     <genres>
       <genre>Baseball</genre>
@@ -3319,11 +3319,12 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Classic Kong</title>
-      <region>NTSC</region>
+      <region>ALL</region>
+          <license>N</license>
       <companies>
         <company type="publisher">Bubble Zap Games</company>
       </companies>
@@ -3335,13 +3336,7 @@
             <media foreign_type="release" role="box" mime="image/png">classic-kong-usa-box.png</media>
           </boxart>
           <country>USA</country>
-          <license>N</license>
-          <genre>Platform</genre>
           <release_date>2012-01-01</release_date>
-          <title>Classic Kong</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -3350,7 +3345,6 @@
             <media foreign_type="release" role="back" mime="image/png">classic-kong-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">classic-kong-usa-box.png</media>
           </boxart>
-          <country>USA</country>
           <license>N</license>
           <release_date>2012-01-01</release_date>
           <rating>NR</rating>
@@ -10017,11 +10011,12 @@
   </game>
   <game>
     <genres>
+      <genre>Puzzle</genre>
     </genres>
-    <genre>Puzzle</genre>
     <cartridge primary="Y">
       <title>Mazezam Challenge</title>
-      <region>NTSC</region>
+      <region>ALL</region>
+      <license>N</license>
       <companies>
         <company type="publisher">Alekmaul</company>
       </companies>
@@ -10033,13 +10028,7 @@
             <media foreign_type="release" role="box" mime="image/png">mazezam-challenge-usa-box.png</media>
           </boxart>
           <country>USA</country>
-          <license>N</license>
-          <genre>Puzzle</genre>
           <release_date>2012-01-01</release_date>
-          <title>Mazezam Challenge</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -10048,8 +10037,6 @@
             <media foreign_type="release" role="back" mime="image/png">mazezam-challenge-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">mazezam-challenge-usa-box.png</media>
           </boxart>
-          <country>USA</country>
-          <license>N</license>
           <release_date>2012-01-01</release_date>
           <rating>NR</rating>
         </release>
@@ -15183,11 +15170,12 @@
   </game>
   <game>
     <genres>
+      <genre>Puzzle</genre>
     </genres>
-    <genre>Puzzle</genre>
     <cartridge primary="Y">
       <title>Skipp and Friends</title>
-      <region>NTSC</region>
+      <region>ALL</region>
+      <license>N</license>
       <companies>
         <company type="publisher">PDRoms Coding Competition</company>
       </companies>
@@ -15199,13 +15187,7 @@
             <media foreign_type="release" role="box" mime="image/png">skipp-and-friends-usa-box.png</media>
           </boxart>
           <country>USA</country>
-          <license>N</license>
-          <genre>Puzzle</genre>
           <release_date>2009-01-01</release_date>
-          <title>Skipp and Friends</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -15214,8 +15196,6 @@
             <media foreign_type="release" role="back" mime="image/png">skipp-and-friends-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">skipp-and-friends-usa-box.png</media>
           </boxart>
-          <country>USA</country>
-          <license>N</license>
           <release_date>2009-01-01</release_date>
           <rating>NR</rating>
         </release>
@@ -17700,8 +17680,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Super Noah's Ark 3D</title>
       <region>NTSC</region>
@@ -20396,11 +20376,12 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Uwol - Quest For Money</title>
-      <region>NTSC</region>
+      <region>ALL</region>
+      <license>N</license>
       <companies>
         <company type="publisher">Alekmaul</company>
       </companies>
@@ -20412,13 +20393,7 @@
             <media foreign_type="release" role="box" mime="image/png">uwol-quest-for-money-usa-box.png</media>
           </boxart>
           <country>USA</country>
-          <license>N</license>
-          <genre>Platform</genre>
           <release_date>2012-01-01</release_date>
-          <title>Uwol - Quest For Money</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -20427,8 +20402,6 @@
             <media foreign_type="release" role="back" mime="image/png">uwol-quest-for-money-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">uwol-quest-for-money-usa-box.png</media>
           </boxart>
-          <country>USA</country>
-          <license>N</license>
           <release_date>2012-01-01</release_date>
           <rating>NR</rating>
         </release>
@@ -22016,5 +21989,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /SNES -->
 </games>
-<!-- /SNES -->

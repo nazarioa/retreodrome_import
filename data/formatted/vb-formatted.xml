@@ -1,5 +1,5 @@
-<!-- VB -->
 <games>
+  <!-- VB -->
   <game>
     <genres>
       <genre>Puzzle</genre>
@@ -517,12 +517,12 @@
     <genres>
       <genre>Shooter</genre>
     </genres>
-    <company type="publisher">Ocean Software of America, Inc.</company>
     <cartridge primary="Y">
+      <title>Waterworld</title>
       <region>NTSC</region>
       <companies>
+        <company type="publisher">Ocean Software of America, Inc.</company>
       </companies>
-      <title>Waterworld</title>
       <releases>
         <release>
           <boxart>
@@ -540,5 +540,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /VB -->
 </games>
-<!-- /VB -->

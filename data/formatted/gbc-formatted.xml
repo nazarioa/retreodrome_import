@@ -1,5 +1,5 @@
-<!-- GBC -->
 <games>
+  <!-- GBC -->
   <game>
     <genres>
       <genre>Action</genre>
@@ -4186,9 +4186,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">frogger-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">frogger-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">frogger-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">frogger-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">frogger-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">frogger-rev-b-usa-box.png</media>
           </boxart>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
@@ -5248,7 +5248,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Indiana Jones and the Infernal Machine</title>
-      <region>PAL</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">THQ</company>
       </companies>
@@ -5259,18 +5259,12 @@
             <media foreign_type="release" role="back" mime="image/png">indiana-jones-and-the-infernal-machine-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">indiana-jones-and-the-infernal-machine-usa-box.png</media>
           </boxart>
-          <company type="publisher">THQ</company>
           <release_date>2001-01-01</release_date>
-          <region>NTSC</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
-        </boxart>
-        <release_date>2001-01-01</release_date>
-        <rating>E</rating>
-        <boxart>
+          <release_date>2001-01-01</release_date>
+          <rating>E</rating>
         </release>
       </releases>
       <consoles>
@@ -6029,9 +6023,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">legend-of-zelda-the-links-awakening-dx-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">legend-of-zelda-the-links-awakening-dx-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">legend-of-zelda-the-links-awakening-dx-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">legend-of-zelda-the-links-awakening-dx-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">legend-of-zelda-the-links-awakening-dx-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">legend-of-zelda-the-links-awakening-dx-rev-b-usa-box.png</media>
           </boxart>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
@@ -8374,9 +8368,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">nba-in-the-zone-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">nba-in-the-zone-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">nba-in-the-zone-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">nba-in-the-zone-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">nba-in-the-zone-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">nba-in-the-zone-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1999-01-01</release_date>
           <rating>E</rating>
@@ -8586,9 +8580,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">nfl-blitz-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">nfl-blitz-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">nfl-blitz-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">nfl-blitz-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">nfl-blitz-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">nfl-blitz-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
@@ -9234,9 +9228,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">pokemon-crystal-version-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">pokemon-crystal-version-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">pokemon-crystal-version-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">pokemon-crystal-version-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">pokemon-crystal-version-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">pokemon-crystal-version-rev-a-usa-box.png</media>
           </boxart>
           <release_date>2001-01-01</release_date>
           <rating>E</rating>
@@ -9618,9 +9612,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-bad-mojo-jojo-rev-b-usa-box.png</media>
           </boxart>
           <release_date>2000-01-01</release_date>
           <rating>E</rating>
@@ -9644,9 +9638,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-battle-him-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-battle-him-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-battle-him-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-battle-him-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-battle-him-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-battle-him-rev-a-usa-box.png</media>
           </boxart>
           <release_date>2001-01-01</release_date>
           <rating>E</rating>
@@ -9670,9 +9664,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">powerpuff-girls-the-paint-the-townsville-green-rev-b-usa-box.png</media>
           </boxart>
           <release_date>2000-01-01</release_date>
           <rating>E</rating>
@@ -11149,9 +11143,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">shadowgate-classic-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">shadowgate-classic-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">shadowgate-classic-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">shadowgate-classic-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">shadowgate-classic-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">shadowgate-classic-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1999-01-01</release_date>
           <rating>E</rating>
@@ -11209,9 +11203,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">shanghai-pocket-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">shanghai-pocket-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">shanghai-pocket-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">shanghai-pocket-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">shanghai-pocket-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">shanghai-pocket-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
@@ -11865,9 +11859,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">super-mario-bros-deluxe-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">super-mario-bros-deluxe-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-deluxe-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-bros-deluxe-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-bros-deluxe-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-deluxe-rev-b-usa-box.png</media>
           </boxart>
           <release_date>1999-01-01</release_date>
           <rating>E</rating>
@@ -12593,20 +12587,16 @@
       <title>Tom Clancy's Rainbow Six</title>
       <region>ALL</region>
       <companies>
-      </companies>
-      <companies>
         <company type="publisher">SouthPeak Games</company>
-      </boxart>
-      <boxart>
-        <media foreign_type="release" role="front" mime="image/png">tom-clancys-rainbow-six-usa-front.png</media>
-        <media foreign_type="release" role="back" mime="image/png">tom-clancys-rainbow-six-usa-back.png</media>
-        <media foreign_type="release" role="box" mime="image/png">tom-clancys-rainbow-six-usa-box.png</media>
       </companies>
       <releases>
         <release>
-        </boxart>
-        <release_date>2000-01-01</release_date>
-        <boxart>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">tom-clancys-rainbow-six-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">tom-clancys-rainbow-six-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">tom-clancys-rainbow-six-usa-box.png</media>
+          </boxart>
+          <release_date>2000-01-01</release_date>
           <rating>E</rating>
         </release>
         <release>
@@ -14485,5 +14475,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /GBC -->
 </games>
-<!-- /GBC -->

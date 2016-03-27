@@ -1,5 +1,5 @@
-<!-- NES -->
-<games>
+<games>  
+  <!-- NES -->
   <game>
     <genres>
       <genre>Adventure</genre>
@@ -7167,24 +7167,21 @@
   </game>
   <game>
     <genres>
+      <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <genre>Action</genre>
       <title>Escape from Atlantis, The</title>
       <region>NTSC</region>
       <companies>
+        <company type="publisher">Color Dreams</company>
       </companies>
       <releases>
-        <company type="publisher">Color Dreams</company>
         <release>
           <boxart>
             <media foreign_type="release" role="front" mime="image/png">escape-from-atlantis-the-usa-front.png</media>
             <media foreign_type="release" role="back" mime="image/png">escape-from-atlantis-the-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">escape-from-atlantis-the-usa-box.png</media>
           </boxart>
-          <license>Y</license>
-          <prototype>Y</prototype>
-          <license>N</license>
           <release_date>1990-01-01</release_date>
           <rating>RP</rating>
         </release>
@@ -17039,19 +17036,17 @@
       <genre>Sports</genre>
       <title>Robert Byrne's Pool Challenge</title>
       <region>NTSC</region>
+      <prototype>Y</prototype>
       <companies>
+        <company type="publisher">Odyssey Software</company>
       </companies>
       <releases>
-        <company type="publisher">Odyssey Software</company>
         <release>
           <boxart>
             <media foreign_type="release" role="front" mime="image/png">robert-byrnes-pool-challenge-usa-front.png</media>
             <media foreign_type="release" role="back" mime="image/png">robert-byrnes-pool-challenge-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">robert-byrnes-pool-challenge-usa-box.png</media>
           </boxart>
-          <license>Y</license>
-          <prototype>Y</prototype>
-          <license>N</license>
           <release_date>1992-01-01</release_date>
           <rating>RP</rating>
         </release>
@@ -24194,5 +24189,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /NES -->
 </games>
-<!-- /NES -->

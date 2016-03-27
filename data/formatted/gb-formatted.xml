@@ -1,5 +1,5 @@
-<!-- GB -->
 <games>
+<!-- GB -->
   <game>
     <genres>
       <genre>Puzzle</genre>
@@ -556,7 +556,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Alleyway</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -567,13 +567,7 @@
             <media foreign_type="release" role="back" mime="image/png">alleyway-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">alleyway-usa-box.png</media>
           </boxart>
-          <genre>Action</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Alleyway</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -1302,7 +1296,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Baseball</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -1313,14 +1307,7 @@
             <media foreign_type="release" role="back" mime="image/png">baseball-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">baseball-usa-box.png</media>
           </boxart>
-          <genre>Baseball</genre>
-          <genre>Sports</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Baseball</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -1423,7 +1410,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Batman - The Video Game</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">SunSoft, Inc.</company>
       </companies>
@@ -1434,13 +1421,7 @@
             <media foreign_type="release" role="back" mime="image/png">batman-the-video-game-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">batman-the-video-game-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">SunSoft, Inc.</company>
           <release_date>1990-01-01</release_date>
-          <title>Batman - The Video Game</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -2595,9 +2576,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">boxxle-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">boxxle-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">boxxle-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">boxxle-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">boxxle-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">boxxle-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1990-01-01</release_date>
           <rating>E</rating>
@@ -2926,7 +2907,7 @@
     </genres>
     <cartridge primary="Y">
       <title>BurgerTime Deluxe</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Data East</company>
       </companies>
@@ -2937,13 +2918,7 @@
             <media foreign_type="release" role="back" mime="image/png">burgertime-deluxe-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">burgertime-deluxe-usa-box.png</media>
           </boxart>
-          <genre>Action</genre>
-          <company type="publisher">Data East</company>
           <release_date>1991-01-01</release_date>
-          <title>BurgerTime Deluxe</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -3104,9 +3079,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">caesars-palace-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">caesars-palace-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">caesars-palace-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">caesars-palace-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">caesars-palace-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">caesars-palace-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1991-01-01</release_date>
           <rating>E</rating>
@@ -3653,9 +3628,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">chessmaster-the-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">chessmaster-the-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">chessmaster-the-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">chessmaster-the-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">chessmaster-the-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">chessmaster-the-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1991-01-01</release_date>
           <rating>E</rating>
@@ -4768,7 +4743,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Donkey Kong</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -4779,13 +4754,7 @@
             <media foreign_type="release" role="back" mime="image/png">donkey-kong-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">donkey-kong-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1994-01-01</release_date>
-          <title>Donkey Kong</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -4809,31 +4778,25 @@
     </genres>
     <cartridge primary="Y">
       <title>Donkey Kong (Rev A)</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">donkey-kong-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">donkey-kong-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">donkey-kong-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">donkey-kong-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">donkey-kong-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">donkey-kong-rev-a-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1994-01-01</release_date>
-          <title>Donkey Kong (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">donkey-kong-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">donkey-kong-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">donkey-kong-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">donkey-kong-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">donkey-kong-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">donkey-kong-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1994-01-01</release_date>
           <rating>E</rating>
@@ -4935,9 +4898,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">donkey-kong-land-iii-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">donkey-kong-land-iii-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">donkey-kong-land-iii-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">donkey-kong-land-iii-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">donkey-kong-land-iii-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">donkey-kong-land-iii-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
@@ -5215,7 +5178,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Dr. Mario</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -5226,13 +5189,7 @@
             <media foreign_type="release" role="back" mime="image/png">dr-mario-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">dr-mario-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>Dr. Mario</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -5241,35 +5198,23 @@
             <media foreign_type="release" role="back" mime="image/png">dr-mario-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">dr-mario-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>Dr. Mario (Rev A)</title>
-          <region>NTSC</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">dr-mario-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">dr-mario-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">dr-mario-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">dr-mario-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">dr-mario-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">dr-mario-rev-a-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>Dr. Mario (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">dr-mario-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">dr-mario-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">dr-mario-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">dr-mario-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">dr-mario-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">dr-mario-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1990-01-01</release_date>
           <rating>E</rating>
@@ -5655,7 +5600,7 @@
     </genres>
     <cartridge primary="Y">
       <title>F-1 Race</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -5666,13 +5611,7 @@
             <media foreign_type="release" role="back" mime="image/png">f-1-race-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">f-1-race-usa-box.png</media>
           </boxart>
-          <genre>Driving</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1991-01-01</release_date>
-          <title>F-1 Race</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -5696,31 +5635,25 @@
     </genres>
     <cartridge primary="Y">
       <title>F-1 Race (Rev A)</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">f-1-race-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">f-1-race-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">f-1-race-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">f-1-race-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">f-1-race-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">f-1-race-rev-a-usa-box.png</media>
           </boxart>
-          <genre>Driving</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1991-01-01</release_date>
-          <title>F-1 Race (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">f-1-race-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">f-1-race-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">f-1-race-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">f-1-race-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">f-1-race-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">f-1-race-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1991-01-01</release_date>
           <rating>E</rating>
@@ -6688,9 +6621,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">game-and-watch-gallery-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">game-and-watch-gallery-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">game-and-watch-gallery-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">game-and-watch-gallery-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">game-and-watch-gallery-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">game-and-watch-gallery-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
@@ -7360,7 +7293,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Golf</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -7371,14 +7304,7 @@
             <media foreign_type="release" role="back" mime="image/png">golf-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">golf-usa-box.png</media>
           </boxart>
-          <genre>Golf</genre>
-          <genre>Sports</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>Golf</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -7454,7 +7380,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Gremlins 2 - The New Batch</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Namco</company>
       </companies>
@@ -7465,13 +7391,7 @@
             <media foreign_type="release" role="back" mime="image/png">gremlins-2-the-new-batch-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">gremlins-2-the-new-batch-usa-box.png</media>
           </boxart>
-          <genre>Action</genre>
-          <company type="publisher">Namco</company>
           <release_date>1993-01-01</release_date>
-          <title>Gremlins 2 - The New Batch</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -8176,7 +8096,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Hyper Lode Runner</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Bandai</company>
       </companies>
@@ -8187,13 +8107,7 @@
             <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Bandai</company>
           <release_date>1990-01-01</release_date>
-          <title>Hyper Lode Runner</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -8202,38 +8116,43 @@
             <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Bandai</company>
           <release_date>1990-01-01</release_date>
-          <title>Hyper Lode Runner (Rev A)</title>
-          <region>NTSC</region>
-          <companies>
-          </companies>
+          <rating>NR</rating>
+        </release>
+      </releases>
+      <consoles>
+        <console>GB</console>
+      </consoles>
+    </cartridge>
+  </game>
+  <game>
+    <genres>
+      <genre>Puzzle</genre>
+    </genres>
+    <cartridge primary="Y">
+      <title>Hyper Lode Runner (Rev A)</title>
+      <region>ALL</region>
+      <companies>
+        <company type="publisher">Bandai</company>
+      </companies>
+      <releases>
+        <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">hyper-lode-runner-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-rev-a-usa-box.png</media>
+          </boxart>
+          <release_date>1990-01-01</release_date>
           <rating>NR</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">hyper-lode-runner-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-(rev-a)-usa-box.png</media>
-          </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Bandai</company>
-          <release_date>1990-01-01</release_date>
-          <title>Hyper Lode Runner (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
-          <rating>E</rating>
-        </release>
-        <release>
-          <boxart>
-            <media foreign_type="release" role="front" mime="image/png">hyper-lode-runner-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">hyper-lode-runner-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">hyper-lode-runner-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">hyper-lode-runner-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1990-01-01</release_date>
-          <rating>E</rating>
+          <rating>NR</rating>
         </release>
       </releases>
       <consoles>
@@ -10294,9 +10213,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">legend-of-zelda-the-links-awakening-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">legend-of-zelda-the-links-awakening-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">legend-of-zelda-the-links-awakening-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">legend-of-zelda-the-links-awakening-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">legend-of-zelda-the-links-awakening-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">legend-of-zelda-the-links-awakening-rev-b-usa-box.png</media>
           </boxart>
           <release_date>1993-01-01</release_date>
           <rating>E</rating>
@@ -10469,7 +10388,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Lock'n Chase</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">SunSoft, Inc.</company>
       </companies>
@@ -10480,13 +10399,7 @@
             <media foreign_type="release" role="back" mime="image/png">lockn-chase-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">lockn-chase-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">SunSoft, Inc.</company>
           <release_date>1990-01-01</release_date>
-          <title>Lock'n Chase</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -10536,7 +10449,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Loopz</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Mindscape, Inc.</company>
       </companies>
@@ -10547,13 +10460,7 @@
             <media foreign_type="release" role="back" mime="image/png">loopz-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">loopz-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Mindscape, Inc.</company>
           <release_date>1991-01-01</release_date>
-          <title>Loopz</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -11560,13 +11467,7 @@
             <media foreign_type="release" role="back" mime="image/png">metroid-ii-return-of-samus-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">metroid-ii-return-of-samus-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1991-01-01</release_date>
-          <title>Metroid II - Return of Samus</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -15832,7 +15733,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Qix</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -15843,13 +15744,7 @@
             <media foreign_type="release" role="back" mime="image/png">qix-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">qix-usa-box.png</media>
           </boxart>
-          <genre>Action</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>Qix</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -16455,9 +16350,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">robocop-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">robocop-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">robocop-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">robocop-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">robocop-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">robocop-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1990-01-01</release_date>
           <rating>E</rating>
@@ -17285,7 +17180,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Side Pocket</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Data East</company>
       </companies>
@@ -17296,14 +17191,7 @@
             <media foreign_type="release" role="back" mime="image/png">side-pocket-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">side-pocket-usa-box.png</media>
           </boxart>
-          <genre>Pool</genre>
-          <genre>Sports</genre>
-          <company type="publisher">Data East</company>
           <release_date>1990-01-01</release_date>
-          <title>Side Pocket</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -17598,9 +17486,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">smurfs-the-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">smurfs-the-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">smurfs-the-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">smurfs-the-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">smurfs-the-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">smurfs-the-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1994-01-01</release_date>
           <rating>E</rating>
@@ -17748,7 +17636,7 @@
     </genres>
     <cartridge primary="Y">
       <title>SolarStriker</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -17759,13 +17647,7 @@
             <media foreign_type="release" role="back" mime="image/png">solarstriker-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">solarstriker-usa-box.png</media>
           </boxart>
-          <genre>Shoot-'Em-Up</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1990-01-01</release_date>
-          <title>SolarStriker</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -18552,9 +18434,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">star-wars-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">star-wars-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">star-wars-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">star-wars-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">star-wars-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">star-wars-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1992-01-01</release_date>
           <rating>E</rating>
@@ -18709,9 +18591,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">street-fighter-ii-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">street-fighter-ii-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">street-fighter-ii-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">street-fighter-ii-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">street-fighter-ii-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">street-fighter-ii-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1995-01-01</release_date>
           <rating>E</rating>
@@ -19096,7 +18978,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Super Mario Land</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -19107,13 +18989,7 @@
             <media foreign_type="release" role="back" mime="image/png">super-mario-land-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">super-mario-land-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Super Mario Land</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -19122,38 +18998,43 @@
             <media foreign_type="release" role="back" mime="image/png">super-mario-land-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">super-mario-land-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Super Mario Land (Rev A)</title>
-          <region>NTSC</region>
-          <companies>
-          </companies>
+          <rating>NR</rating>
+        </release>
+      </releases>
+      <consoles>
+        <console>GB</console>
+      </consoles>
+    </cartridge>
+  </game>
+  <game>
+    <genres>
+      <genre>Platform</genre>
+    </genres>
+    <cartridge primary="Y">
+      <title>Super Mario Land (Rev A)</title>
+      <region>ALL</region>
+      <companies>
+        <company type="publisher">Nintendo</company>
+      </companies>
+      <releases>
+        <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-land-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-land-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-land-usa-box.png</media>
+          </boxart>
+          <release_date>1989-01-01</release_date>
           <rating>NR</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">super-mario-land-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">super-mario-land-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-land-(rev-a)-usa-box.png</media>
-          </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
-          <release_date>1989-01-01</release_date>
-          <title>Super Mario Land (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
-          <rating>E</rating>
-        </release>
-        <release>
-          <boxart>
-            <media foreign_type="release" role="front" mime="image/png">super-mario-land-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">super-mario-land-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-land-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-land-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-land-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-land-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1989-01-01</release_date>
-          <rating>E</rating>
+          <rating>NR</rating>
         </release>
       </releases>
       <consoles>
@@ -19200,9 +19081,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">super-mario-land-2-6-golden-coins-(rev-b)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">super-mario-land-2-6-golden-coins-(rev-b)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-land-2-6-golden-coins-(rev-b)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-land-2-6-golden-coins-rev-b-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-land-2-6-golden-coins-rev-b-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-land-2-6-golden-coins-rev-b-usa-box.png</media>
           </boxart>
           <release_date>1992-01-01</release_date>
           <rating>E</rating>
@@ -19951,7 +19832,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Tennis</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -19962,14 +19843,7 @@
             <media foreign_type="release" role="back" mime="image/png">tennis-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">tennis-usa-box.png</media>
           </boxart>
-          <genre>Tennis</genre>
-          <genre>Sports</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Tennis</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -20045,7 +19919,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Tetris</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -20056,13 +19930,8 @@
             <media foreign_type="release" role="back" mime="image/png">tetris-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">tetris-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
           <title>Tetris</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>NR</rating>
         </release>
         <release>
@@ -20071,38 +19940,44 @@
             <media foreign_type="release" role="back" mime="image/png">tetris-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">tetris-usa-box.png</media>
           </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1989-01-01</release_date>
-          <title>Tetris (Rev A)</title>
-          <region>NTSC</region>
-          <companies>
-          </companies>
+          <rating>NR</rating>
+        </release>
+      </releases>
+      <consoles>
+        <console>GB</console>
+      </consoles>
+    </cartridge>
+  </game>
+  <game>
+    <genres>
+      <genre>Puzzle</genre>
+    </genres>
+    <cartridge primary="Y">
+      <title>Tetris (Rev A)</title>
+      <region>ALL</region>
+      <companies>
+        <company type="publisher">Nintendo</company>
+      </companies>
+      <releases>
+        <release>
+          <boxart>
+            <media foreign_type="release" role="front" mime="image/png">tetris-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">tetris-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">tetris-rev-a-usa-box.png</media>
+          </boxart>
+          <release_date>1989-01-01</release_date>
+          <title>Tetris</title>
           <rating>NR</rating>
         </release>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">tetris-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">tetris-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">tetris-(rev-a)-usa-box.png</media>
-          </boxart>
-          <genre>Puzzle</genre>
-          <company type="publisher">Nintendo</company>
-          <release_date>1989-01-01</release_date>
-          <title>Tetris (Rev A)</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
-          <rating>E</rating>
-        </release>
-        <release>
-          <boxart>
-            <media foreign_type="release" role="front" mime="image/png">tetris-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">tetris-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">tetris-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">tetris-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">tetris-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">tetris-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1989-01-01</release_date>
-          <rating>E</rating>
+          <rating>NR</rating>
         </release>
       </releases>
       <consoles>
@@ -20175,9 +20050,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">tetris-attack-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">tetris-attack-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">tetris-attack-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">tetris-attack-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">tetris-attack-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">tetris-attack-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
@@ -20697,9 +20572,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">toy-story-(rev-a)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">toy-story-(rev-a)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">toy-story-(rev-a)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">toy-story-rev-a-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">toy-story-rev-a-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">toy-story-rev-a-usa-box.png</media>
           </boxart>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
@@ -21527,7 +21402,7 @@
     </genres>
     <cartridge primary="Y">
       <title>Wario Land - Super Mario Land 3</title>
-      <region>NTSC</region>
+      <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
       </companies>
@@ -21538,13 +21413,7 @@
             <media foreign_type="release" role="back" mime="image/png">wario-land-super-mario-land-3-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">wario-land-super-mario-land-3-usa-box.png</media>
           </boxart>
-          <genre>Platform</genre>
-          <company type="publisher">Nintendo</company>
           <release_date>1994-01-01</release_date>
-          <title>Wario Land - Super Mario Land 3</title>
-          <region>PAL</region>
-          <companies>
-          </companies>
           <rating>E</rating>
         </release>
         <release>
@@ -22878,5 +22747,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /GB -->
 </games>
-<!-- /GB -->

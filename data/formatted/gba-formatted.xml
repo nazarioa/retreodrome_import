@@ -1,5 +1,5 @@
-<!-- GBA -->
 <games>
+<!-- GBA -->
   <game>
     <genres>
       <genre>Shooter</genre>
@@ -1766,9 +1766,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">4-games-on-one-game-pak-(racing)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">4-games-on-one-game-pak-(racing)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">4-games-on-one-game-pak-(racing)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">4-games-on-one-game-pak-racing-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">4-games-on-one-game-pak-racing-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">4-games-on-one-game-pak-racing-usa-box.png</media>
           </boxart>
           <release_date>2007-01-01</release_date>
           <rating>E</rating>
@@ -1922,9 +1922,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">advance-wars-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">advance-wars-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">advance-wars-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">advance-wars-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">advance-wars-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">advance-wars-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2001-01-01</release_date>
           <rating>E</rating>
@@ -9082,9 +9082,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">ed-edd-n-eddy-jawbreakers-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">ed-edd-n-eddy-jawbreakers-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">ed-edd-n-eddy-jawbreakers-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">ed-edd-n-eddy-jawbreakers-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">ed-edd-n-eddy-jawbreakers-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">ed-edd-n-eddy-jawbreakers-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2002-01-01</release_date>
           <rating>E</rating>
@@ -11228,9 +11228,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-1-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2004-01-01</release_date>
           <rating>E</rating>
@@ -11254,9 +11254,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-spongebob-squarepants-volume-2-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2004-01-01</release_date>
           <rating>E</rating>
@@ -11436,9 +11436,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">game-boy-advance-video-the-fairly-oddparents-volume-2-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2004-01-01</release_date>
           <rating>E</rating>
@@ -14252,9 +14252,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">king-of-fighters-ex-the-neoblood-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">king-of-fighters-ex-the-neoblood-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">king-of-fighters-ex-the-neoblood-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">king-of-fighters-ex-the-neoblood-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">king-of-fighters-ex-the-neoblood-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">king-of-fighters-ex-the-neoblood-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2002-01-01</release_date>
           <rating>T</rating>
@@ -15711,9 +15711,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">m&amp;ms-break-em-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">m&amp;ms-break-em-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">m&amp;ms-break-em-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">m&amp;ms-break-em-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">m&amp;ms-break-em-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">m&amp;ms-break-em-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2007-01-01</release_date>
           <rating>E</rating>
@@ -20126,9 +20126,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">pokemon-fire-red-version-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">pokemon-fire-red-version-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">pokemon-fire-red-version-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">pokemon-fire-red-version-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">pokemon-fire-red-version-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">pokemon-fire-red-version-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2004-01-01</release_date>
           <rating>E</rating>
@@ -20178,9 +20178,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">pokemon-ruby-version-(rev-2)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">pokemon-ruby-version-(rev-2)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">pokemon-ruby-version-(rev-2)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">pokemon-ruby-version-rev-2-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">pokemon-ruby-version-rev-2-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">pokemon-ruby-version-rev-2-usa-box.png</media>
           </boxart>
           <release_date>2003-01-01</release_date>
           <rating>E</rating>
@@ -20204,9 +20204,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">pokemon-sapphire-version-(rev-2)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">pokemon-sapphire-version-(rev-2)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">pokemon-sapphire-version-(rev-2)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">pokemon-sapphire-version-rev-2-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">pokemon-sapphire-version-rev-2-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">pokemon-sapphire-version-rev-2-usa-box.png</media>
           </boxart>
           <release_date>2003-01-01</release_date>
           <rating>E</rating>
@@ -25423,9 +25423,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">super-mario-advance-4-super-mario-bros-3-(rev-1)-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">super-mario-advance-4-super-mario-bros-3-(rev-1)-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-advance-4-super-mario-bros-3-(rev-1)-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">super-mario-advance-4-super-mario-bros-3-rev-1-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">super-mario-advance-4-super-mario-bros-3-rev-1-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-advance-4-super-mario-bros-3-rev-1-usa-box.png</media>
           </boxart>
           <release_date>2003-01-01</release_date>
           <rating>E</rating>
@@ -29570,5 +29570,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /GBA -->
 </games>
-<!-- /GBA -->

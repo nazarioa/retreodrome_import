@@ -1,5 +1,5 @@
-<!-- N64 -->
-<games>
+ <games> 
+  <!-- N64 -->
   <game>
     <genres>
       <genre>Shooter</genre>
@@ -444,8 +444,8 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Banjo-Kazooie</title>
       <region>NTSC</region>
@@ -459,7 +459,6 @@
             <media foreign_type="release" role="back" mime="image/png">banjo-kazooie-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">banjo-kazooie-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -705,8 +704,8 @@
   </game>
   <game>
     <genres>
+      <genre>Action</genre>
     </genres>
-    <genre>Action</genre>
     <cartridge primary="Y">
       <title>Blast Corps</title>
       <region>NTSC</region>
@@ -720,7 +719,6 @@
             <media foreign_type="release" role="back" mime="image/png">blast-corps-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">blast-corps-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -1070,8 +1068,8 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Castlevania</title>
       <region>NTSC</region>
@@ -1085,7 +1083,6 @@
             <media foreign_type="release" role="back" mime="image/png">castlevania-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">castlevania-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1998-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -1383,8 +1380,8 @@
   </game>
   <game>
     <genres>
+      <genre>Racing</genre>
     </genres>
-    <genre>Racing</genre>
     <cartridge primary="Y">
       <title>Cruis'n USA</title>
       <region>NTSC</region>
@@ -1398,7 +1395,6 @@
             <media foreign_type="release" role="back" mime="image/png">cruis'n-usa-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">cruis'n-usa-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -1540,8 +1536,8 @@
   </game>
   <game>
     <genres>
+      <genre>Racing</genre>
     </genres>
-    <genre>Racing</genre>
     <cartridge primary="Y">
       <title>Diddy Kong Racing</title>
       <region>NTSC</region>
@@ -1555,7 +1551,6 @@
             <media foreign_type="release" role="back" mime="image/png">diddy-kong-racing-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">diddy-kong-racing-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -1619,8 +1614,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Doom 64</title>
       <region>NTSC</region>
@@ -1634,7 +1629,6 @@
             <media foreign_type="release" role="back" mime="image/png">doom-64-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">doom-64-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -3024,8 +3018,8 @@
   </game>
   <game>
     <genres>
+      <genre>Fighting</genre>
     </genres>
-    <genre>Fighting</genre>
     <cartridge primary="Y">
       <title>Killer Instinct Gold</title>
       <region>NTSC</region>
@@ -3039,7 +3033,6 @@
             <media foreign_type="release" role="back" mime="image/png">killer-instinct-gold-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">killer-instinct-gold-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1996-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -3181,8 +3174,8 @@
   </game>
   <game>
     <genres>
+      <genre>Adventure</genre>
     </genres>
-    <genre>Adventure</genre>
     <cartridge primary="Y">
       <title>Legend of Zelda, The - Ocarina of Time</title>
       <region>NTSC</region>
@@ -3196,7 +3189,6 @@
             <media foreign_type="release" role="back" mime="image/png">legend-of-zelda-the-ocarina-of-time-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">legend-of-zelda-the-ocarina-of-time-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -3806,8 +3798,8 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Mischief Makers</title>
       <region>NTSC</region>
@@ -3821,7 +3813,6 @@
             <media foreign_type="release" role="back" mime="image/png">mischief-makers-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">mischief-makers-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -3989,8 +3980,8 @@
   </game>
   <game>
     <genres>
+      <genre>Fighting</genre>
     </genres>
-    <genre>Fighting</genre>
     <cartridge primary="Y">
       <title>Mortal Kombat Trilogy</title>
       <region>NTSC</region>
@@ -4004,7 +3995,6 @@
             <media foreign_type="release" role="back" mime="image/png">mortal-kombat-trilogy-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">mortal-kombat-trilogy-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1996-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -4874,8 +4864,8 @@
   </game>
   <game>
     <genres>
+      <genre>Strategy</genre>
     </genres>
-    <genre>Strategy</genre>
     <cartridge primary="Y">
       <title>Ogre Battle 64 - Person of Lordly Caliber</title>
       <region>NTSC</region>
@@ -4889,7 +4879,6 @@
             <media foreign_type="release" role="back" mime="image/png">ogre-battle-64-person-of-lordly-caliber-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">ogre-battle-64-person-of-lordly-caliber-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -5005,8 +4994,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Perfect Dark</title>
       <region>NTSC</region>
@@ -5020,7 +5009,6 @@
             <media foreign_type="release" role="back" mime="image/png">perfect-dark-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">perfect-dark-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -5136,8 +5124,8 @@
   </game>
   <game>
     <genres>
+      <genre>Strategy</genre>
     </genres>
-    <genre>Strategy</genre>
     <cartridge primary="Y">
       <title>Pokemon Stadium</title>
       <region>NTSC</region>
@@ -5151,7 +5139,6 @@
             <media foreign_type="release" role="back" mime="image/png">pokemon-stadium-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">pokemon-stadium-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -5631,8 +5618,8 @@
   </game>
   <game>
     <genres>
+      <genre>Adventure</genre>
     </genres>
-    <genre>Adventure</genre>
     <cartridge primary="Y">
       <title>Resident Evil 2</title>
       <region>NTSC</region>
@@ -5646,7 +5633,6 @@
             <media foreign_type="release" role="back" mime="image/png">resident-evil-2-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">resident-evil-2-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -6230,8 +6216,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shoot-'Em-Up</genre>
     </genres>
-    <genre>Shoot-'Em-Up</genre>
     <cartridge primary="Y">
       <title>Star Fox 64</title>
       <region>NTSC</region>
@@ -6245,7 +6231,6 @@
             <media foreign_type="release" role="back" mime="image/png">star-fox-64-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">star-fox-64-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -6283,8 +6268,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Star Wars - Rogue Squadron</title>
       <region>NTSC</region>
@@ -6298,7 +6283,6 @@
             <media foreign_type="release" role="back" mime="image/png">star-wars-rogue-squadron-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">star-wars-rogue-squadron-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1998-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -6310,8 +6294,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Star Wars - Shadows of the Empire</title>
       <region>NTSC</region>
@@ -6325,7 +6309,6 @@
             <media foreign_type="release" role="back" mime="image/png">star-wars-shadows-of-the-empire-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">star-wars-shadows-of-the-empire-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1999-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -6753,8 +6736,8 @@
   </game>
   <game>
     <genres>
+      <genre>Platform</genre>
     </genres>
-    <genre>Platform</genre>
     <cartridge primary="Y">
       <title>Tonic Trouble</title>
       <region>NTSC</region>
@@ -6768,7 +6751,6 @@
             <media foreign_type="release" role="back" mime="image/png">tonic-trouble-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">tonic-trouble-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1999-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -6780,8 +6762,8 @@
   </game>
   <game>
     <genres>
+      <genre>Sports</genre>
     </genres>
-    <genre>Sports</genre>
     <cartridge primary="Y">
       <title>Tony Hawk's Pro Skater</title>
       <region>NTSC</region>
@@ -6795,7 +6777,6 @@
             <media foreign_type="release" role="back" mime="image/png">tony-hawk's-pro-skater-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">tony-hawk's-pro-skater-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -7041,8 +7022,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Turok - Dinosaur Hunter</title>
       <region>NTSC</region>
@@ -7056,7 +7037,6 @@
             <media foreign_type="release" role="back" mime="image/png">turok-dinosaur-hunter-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">turok-dinosaur-hunter-usa-box.png</media>
           </boxart>
-          <revision>B</revision>
           <release_date>1997-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -7094,8 +7074,8 @@
   </game>
   <game>
     <genres>
+      <genre>Shooter</genre>
     </genres>
-    <genre>Shooter</genre>
     <cartridge primary="Y">
       <title>Turok 2 - Seeds of Evil</title>
       <region>NTSC</region>
@@ -7109,7 +7089,6 @@
             <media foreign_type="release" role="back" mime="image/png">turok-2-seeds-of-evil-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">turok-2-seeds-of-evil-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1998-01-01</release_date>
           <rating>M</rating>
         </release>
@@ -7303,8 +7282,8 @@
   </game>
   <game>
     <genres>
+      <genre>Sports</genre>
     </genres>
-    <genre>Sports</genre>
     <cartridge primary="Y">
       <title>Waialae Country Club - True Golf Classics</title>
       <region>NTSC</region>
@@ -7318,7 +7297,6 @@
             <media foreign_type="release" role="back" mime="image/png">waialae-country-club-true-golf-classics-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">waialae-country-club-true-golf-classics-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1998-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -7356,8 +7334,8 @@
   </game>
   <game>
     <genres>
+      <genre>Racing</genre>
     </genres>
-    <genre>Racing</genre>
     <cartridge primary="Y">
       <title>Wave Race 64</title>
       <region>NTSC</region>
@@ -7371,7 +7349,6 @@
             <media foreign_type="release" role="back" mime="image/png">wave-race-64-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">wave-race-64-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -7409,8 +7386,8 @@
   </game>
   <game>
     <genres>
+      <genre>Sports</genre>
     </genres>
-    <genre>Sports</genre>
     <cartridge primary="Y">
       <title>Wayne Gretzky's 3D Hockey</title>
       <region>NTSC</region>
@@ -7424,7 +7401,6 @@
             <media foreign_type="release" role="back" mime="image/png">wayne-gretzky's-3d-hockey-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">wayne-gretzky's-3d-hockey-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1996-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -7514,8 +7490,8 @@
   </game>
   <game>
     <genres>
+      <genre>Sports</genre>
     </genres>
-    <genre>Sports</genre>
     <cartridge primary="Y">
       <title>WCW vs. nWo - World Tour</title>
       <region>NTSC</region>
@@ -7529,7 +7505,6 @@
             <media foreign_type="release" role="back" mime="image/png">wcw-vs-nwo-world-tour-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">wcw-vs-nwo-world-tour-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>1997-01-01</release_date>
           <rating>E</rating>
         </release>
@@ -7775,8 +7750,8 @@
   </game>
   <game>
     <genres>
+      <genre>Sports</genre>
     </genres>
-    <genre>Sports</genre>
     <cartridge primary="Y">
       <title>WWF No Mercy</title>
       <region>NTSC</region>
@@ -7790,7 +7765,6 @@
             <media foreign_type="release" role="back" mime="image/png">wwf-no-mercy-usa-back.png</media>
             <media foreign_type="release" role="box" mime="image/png">wwf-no-mercy-usa-box.png</media>
           </boxart>
-          <revision>A</revision>
           <release_date>2000-01-01</release_date>
           <rating>T</rating>
         </release>
@@ -7904,5 +7878,5 @@
       </consoles>
     </cartridge>
   </game>
+  <!-- /N64 -->
 </games>
-<!-- /N64 -->
