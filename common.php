@@ -218,11 +218,15 @@ function truthy ($input) {
   return NO;
 }
 
-
 function check_database_error (&$database) {
-  $error_code = $database->error()[1];
+  $error_code = intval ($database->error()[1]);
   $error_message = $database->error()[2];
-  if($error_code == '1054'){
+
+  if($error_code == 1054){
     Throw new Exception ($error_message);
+  } elseif($error_code == 0) {
+    return true;
+  } else {
+    Throw new Exception ('Some other error:' . $error_code . ' ' . $error_message);
   }
 }
