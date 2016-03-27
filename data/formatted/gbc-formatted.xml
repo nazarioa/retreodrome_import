@@ -650,7 +650,7 @@
       <genre>Shoot-'Em-Up</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Arcade Hits - Joust & Defender</title>
+      <title>Arcade Hits - Joust &amp; Defender</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Midway</company>
@@ -676,7 +676,7 @@
       <genre>Shooter</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Arcade Hits - Moon Patrol & Spy Hunter</title>
+      <title>Arcade Hits - Moon Patrol &amp; Spy Hunter</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Midway</company>
@@ -896,7 +896,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Asterix & Obelix</title>
+      <title>Asterix &amp; Obelix</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Infogrames</company>
@@ -922,7 +922,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Asterix & Obelix vs Caesar</title>
+      <title>Asterix &amp; Obelix vs Caesar</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Infogrames</company>
@@ -2794,7 +2794,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Deja Vu I & II - The Casebooks of Ace Harding</title>
+      <title>Deja Vu I &amp; II - The Casebooks of Ace Harding</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Vatical Entertainment</company>
@@ -3188,7 +3188,7 @@
       <genre>Role-Playing</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Dragon Warrior I & II</title>
+      <title>Dragon Warrior I &amp; II</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Enix Corporation</company>
@@ -3670,7 +3670,7 @@
       <genre>Sports</genre>
     </genres>
     <cartridge primary="Y">
-      <title>ESPN International Track & Field</title>
+      <title>ESPN International Track &amp; Field</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Konami</company>
@@ -4022,7 +4022,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Fix & Foxi - Episode 1 Lupo</title>
+      <title>Fix &amp; Foxi - Episode 1 Lupo</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Ravensburger Interactive</company>
@@ -4074,7 +4074,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Flipper & Lopaka</title>
+      <title>Flipper &amp; Lopaka</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Planet Interactive</company>
@@ -4256,7 +4256,7 @@
       <genre>Mini-Games</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Game & Watch Gallery 2</title>
+      <title>Game &amp; Watch Gallery 2</title>
       <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
@@ -4286,7 +4286,7 @@
       <genre>Mini-Games</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Game & Watch Gallery 3</title>
+      <title>Game &amp; Watch Gallery 3</title>
       <region>ALL</region>
       <companies>
         <company type="publisher">Nintendo</company>
@@ -5413,7 +5413,7 @@
       <genre>Sports</genre>
     </genres>
     <cartridge primary="Y">
-      <title>International Track & Field</title>
+      <title>International Track &amp; Field</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Konami</company>
@@ -6571,7 +6571,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>M&M's Minis Madness</title>
+      <title>M&amp;M's Minis Madness</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Majesco</company>
@@ -6579,9 +6579,9 @@
       <releases>
         <release>
           <boxart>
-            <media foreign_type="release" role="front" mime="image/png">m&ms-minis-madness-usa-front.png</media>
-            <media foreign_type="release" role="back" mime="image/png">m&ms-minis-madness-usa-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">m&ms-minis-madness-usa-box.png</media>
+            <media foreign_type="release" role="front" mime="image/png">m&amp;ms-minis-madness-usa-front.png</media>
+            <media foreign_type="release" role="back" mime="image/png">m&amp;ms-minis-madness-usa-back.png</media>
+            <media foreign_type="release" role="box" mime="image/png">m&amp;ms-minis-madness-usa-box.png</media>
           </boxart>
           <release_date>2000-01-01</release_date>
           <rating>E</rating>
@@ -6865,7 +6865,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Mary-Kate & Ashley - Get a Clue!</title>
+      <title>Mary-Kate &amp; Ashley - Get a Clue!</title>
       <region>ALL</region>
       <companies>
         <company type="publisher">Acclaim Entertainment, Inc.</company>
@@ -7085,7 +7085,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Maya the Bee & Her Friends</title>
+      <title>Maya the Bee &amp; Her Friends</title>
       <region>PAL</region>
       <companies>
         <company type="publisher">Acclaim Entertainment, Inc.</company>
@@ -8526,7 +8526,7 @@
       <genre>Action</genre>
     </genres>
     <cartridge primary="Y">
-      <title>New Adventures of Mary-Kate & Ashley, The</title>
+      <title>New Adventures of Mary-Kate &amp; Ashley, The</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Acclaim Entertainment, Inc.</company>
@@ -10749,7 +10749,7 @@
       <genre>Adventure</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Roswell Conspiracies - Aliens, Myths & Legends</title>
+      <title>Roswell Conspiracies - Aliens, Myths &amp; Legends</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Red Storm Entertainment</company>
@@ -12508,7 +12508,7 @@
       <genre>Platform</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Tom & Jerry</title>
+      <title>Tom &amp; Jerry</title>
       <region>ALL</region>
       <companies>
         <company type="publisher">Majesco</company>

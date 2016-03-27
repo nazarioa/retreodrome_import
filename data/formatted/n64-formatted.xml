@@ -1308,7 +1308,7 @@
       <genre>Strategy</genre>
     </genres>
     <cartridge primary="Y">
-      <title>Command & Conquer</title>
+      <title>Command &amp; Conquer</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Nintendo</company>
@@ -2871,7 +2871,7 @@
       <genre>Sports</genre>
     </genres>
     <cartridge primary="Y">
-      <title>International Track & Field 2000</title>
+      <title>International Track &amp; Field 2000</title>
       <region>NTSC</region>
       <companies>
         <company type="publisher">Konami</company>
