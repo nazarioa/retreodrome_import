@@ -1,6 +1,6 @@
 <?php
-define ('RESULTS_MULTIPLE', 'Found >1 categories');
-define ('RESULTS_ZERO', 'Found 0 categories');
+define ('RESULTS_MULTIPLE', 'Found >1');
+define ('RESULTS_ZERO', 'Found 0');
 define ('RESULTS_INVALID', 'Invalid Results');
 
 define ('MECHANICS', 'Mechanic');
