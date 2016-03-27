@@ -27,8 +27,8 @@ foreach ($xml_data as $game) {
 
   // Associating Genres with current game.
   foreach ($game->genres as $genre) {
-    $last_genre_id = get_genre ($genre->genre, $database, true);
-    $database->insert ('games_genres', [
+    $last_genre_id = get_genre_id ($genre->genre, $database, true);
+    $database->insert (TBL_GAME_GENRE, [
       'genre_type_id' => $last_genre_id,
       'game_id' => $last_game_id,
     ]);
@@ -45,7 +45,7 @@ foreach ($xml_data as $game) {
     $prototype = truthy ($cartridge->prototype);
     $special = truthy ($cartridge->special);
 
-    $last_cartridge_id = $database->insert ('cartridges', [
+    $last_cartridge_id = $database->insert (TBL_CARTRIDGE, [
       'game_id' => (int) $last_game_id,
       'region_type_id' => (int) $region_type_id,
       'name' => (string) $title,
@@ -66,7 +66,7 @@ foreach ($xml_data as $game) {
     // consoles are processed after cartridge insert
     foreach ($consoles as $console) {
       $console_id = get_console_id ($console->console, $database, true);
-      $database->insert ('cartridges_consoles', [
+      $database->insert (TBL_CARTRIDGE_CONSOLE, [
         'console_id' => (int) $console_id,
         'cartridge_id' => (int) $last_cartridge_id,
       ]);
@@ -77,8 +77,8 @@ foreach ($xml_data as $game) {
     foreach ($companies as $company) {
       $company_role_type_id = get_type ( (string) $company['type'], CREATION_ROLE, $database, true);
       $company_id = get_company_id ($company->company, $database, true);
-      $database->insert ('cartridges_consoles', [
         'console_id' => (int) $console_id,
+      $database->insert (TBL_CARTRIDGE_COMPANY, [
         'cartridge_id' => (int) $last_cartridge_id,
         'company_role_type_id' => (int) $company_role_type_id,
       ]);
@@ -92,7 +92,7 @@ foreach ($xml_data as $game) {
       $is_official_release = truthy ($release->offical);
       $quantities_shipped = (int) $release->shipped;
 
-      $last_release_id = $database->insert ('release', [
+      $last_release_id = $database->insert (TBL_RELEASE, [
         'cartridge_id' => (int) $last_cartridge_id,
         'country_type_id' => (int) $country_type_id,
         'maturity_rating_type_id' => (int) $maturity_rating_type_id,

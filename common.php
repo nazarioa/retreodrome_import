@@ -12,6 +12,19 @@ define ('REGIONS', 'Region');
 define ('OTHER', 'Other');
 define ('COUNTRIES', 'Country Code');
 
+// __Table Names__
+define ('TBL_TYPE', 'types');
+define ('TBL_CATEGORY', 'categories');
+define ('TBL_COMPANY', 'companies');
+define ('TBL_CONSOLE', 'consoles');
+define ('TBL_CARTRIDGE', 'cartridges');
+define ('TBL_CARTRIDGE_CONSOLE', 'cartridges_consoles');
+define ('TBL_CARTRIDGE_COMPANY', 'cartridges_companies');
+define ('TBL_MEDIA', 'media');
+define ('TBL_GAME', 'games');
+define ('TBL_GAME_GENRE', 'games_genres');
+define ('TBL_RELEASE', 'releases');
+
 define ('YES', 1);
 define ('NO', 0);
 
@@ -170,7 +183,7 @@ function set_type ($name, $category, &$database) {
     throw $e;
   }
 
-  $type_id = $database->insert ('types', [
+  $type_id = $database->insert (TBL_TYPE, [
     'name' => (string) $name,
     'category_id' => (int) $category_id,
   ]);
@@ -196,8 +209,7 @@ function get_category ($category_name, &$database) {
 }
 
 function set_category ($category, &$database) {
-
-  $type_id = $database->insert ('categories', [
+  $type_id = $database->insert (TBL_CATEGORY, [
     'name' => (string) $name,
   ]);
 
