@@ -160,7 +160,7 @@ function get_type ($type_name, $category_name, &$database, $insert = false) {
     $type_id = $type[0]['id'];
   } elseif (count ($type) > 1) {
     throw new Exception (RESULTS_MULTIPLE, 1);
-  } elseif (count ($type) < 1 && DEBUG == false) {
+  } elseif (count ($type) < 1 && $insert == true) {
     $type_id = set_type ( (string) $type_name, $category_name, $database);
   } elseif (count ($type) < 1 ) {
     throw new Exception (RESULTS_ZERO, 1);
