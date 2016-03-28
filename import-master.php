@@ -25,7 +25,7 @@ foreach ($xml_data as $game) {
 
   // Associating Genres with current game.
   foreach ($game->genres as $genre) {
-    $last_genre_id = get_genre_id ($genre->genre, $database, true);
+    $last_genre_id = get_genre_id ((string) $genre->genre, $database, true);
     $database->insert (TBL_GAME_GENRE, [
       'genre_type_id' => $last_genre_id,
       'game_id' => $last_game_id,
