@@ -36,10 +36,10 @@ function get_region_id ($name, &$database, $insert = false) {
   try {
     $region_id = get_type ($name, REGIONS, $database);
   } catch (Exception $e) {
-    if ($e->messsage == RESULTS_ZERO && $insert == true) {
+    if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
       $region_id = set_region_id ($name, $database);
     } else {
-      throw $e;
+      throw new Exception ( $e->getMessage() . "\n\n" . $database->last_query() );
     }
   }
 
@@ -54,10 +54,10 @@ function get_maturity_rating_id ( $name, &$database, $insert = false) {
   try {
     $maturity_rating_type_id = get_type ($name, MATURITY_RATING, $database);
   } catch (Exception $e) {
-    if ($e->messsage == RESULTS_ZERO && $insert == true) {
+    if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
       $maturity_rating_type_id = set_maturity_rating_id ($name, $database);
     } else {
-      throw $e;
+      throw new Exception ( $e->getMessage() . "\n\n" . $database->last_query() );
     }
   }
 
@@ -72,10 +72,10 @@ function get_mechanics_id ($name, &$database, $insert = false) {
   try {
     $mechanics_id = get_type ($name, MECHANICS, $database);
   } catch (Exception $e) {
-    if ($e->messsage == RESULTS_ZERO && $insert == true) {
+    if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
       $mechanics_id = set_mechanics_id ($name, $database);
     } else {
-      throw $e;
+      throw new Exception ( $e->getMessage() . "\n\n" . $database->last_query() );
     }
   }
 
@@ -90,10 +90,10 @@ function get_genre_id ($name, &$database, $insert = false) {
   try {
     $genre_id = get_type ($name, GENRES, $database);
   } catch (Exception $e) {
-    if ($e->messsage == RESULTS_ZERO && $insert == true) {
+    if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
       $genre_id = set_genre_id ($name, $database);
     } else {
-      throw $e;
+      throw new Exception ( $e->getMessage() . "\n\n" . $database->last_query() );
     }
   }
 
@@ -174,15 +174,15 @@ function set_type ($name, $category, &$database) {
   try {
     $category_id = get_category($category, $database);
   } catch (Exception $e) {
-    throw $e;
+    throw new Exception ( $e->getMessage() . "\n\n" . $database->last_query() );
+
+    $type_id = $database->insert (TBL_TYPE, [
+      'name' => (string) $name,
+      'category_id' => (int) $category_id,
+    ]);
+
+    return $type_id;
   }
-
-  $type_id = $database->insert (TBL_TYPE, [
-    'name' => (string) $name,
-    'category_id' => (int) $category_id,
-  ]);
-
-  return $type_id;
 }
 
 function get_category ($category_name, &$database, $insert = false) {
