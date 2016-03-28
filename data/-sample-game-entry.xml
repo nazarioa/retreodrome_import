@@ -32,7 +32,7 @@
           <boxart>
             <media foreign_type="release" role="front" mime="image/png">super-mario-bros-3-jap-front.png</media>
             <media foreign_type="release" role="back" mime="image/png">super-mario-bros-3-jap-back.png</media>
-            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-3-jap-box.png</box>
+            <media foreign_type="release" role="box" mime="image/png">super-mario-bros-3-jap-box.png</media>
           </boxart>
           <country>JAP</country>
           <release_date>1988-01-01</release_date>
