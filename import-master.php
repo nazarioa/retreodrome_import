@@ -70,7 +70,7 @@ foreach ($xml_data as $game) {
     // Associating Companies
     // companies are processed after cartridge insert
     foreach ($cartridge->companies as $company) {
-      $company_role_type_id = get_type ( (string) $company->company['type'], CREATION_ROLE, $database, true);
+      $company_role_type_id = get_type ( (string) $company->company['type'], CREATION_ROLE, $database, false);
       $company_id = get_company_id ( $company->company, $database, true);
       $database->insert (TBL_CARTRIDGE_COMPANY, [
         'company_id' => (int) $company_id,
@@ -86,7 +86,7 @@ foreach ($xml_data as $game) {
       echo($release->rating);
 
       $country_type_id = get_type ($release->release->country, COUNTRIES, $database, true);
-      $maturity_rating_type_id = get_maturity_rating_id ($release->release->rating, $database, true);
+      $maturity_rating_type_id = get_maturity_rating_id ($release->release->rating, $database, false);
       $is_official_release = truthy ($release->release->offical);
       $quantities_shipped = $release->release->shipped;
       $release_date = $release->release->release_date;
