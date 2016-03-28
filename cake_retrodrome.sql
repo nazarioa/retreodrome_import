@@ -11,7 +11,7 @@
  Target Server Version : 50626
  File Encoding         : utf-8
 
- Date: 03/27/2016 03:06:22 AM
+ Date: 03/27/2016 18:39:48 PM
 */
 
 SET NAMES utf8;
@@ -348,13 +348,13 @@ CREATE TABLE `types` (
   `name` varchar(50) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=latin1;
 
 -- ----------------------------
 --  Records of `types`
 -- ----------------------------
 BEGIN;
-INSERT INTO `types` VALUES ('1', '1', '**DEAD**', null), ('2', '2', 'Rail', null), ('3', '2', 'Side scroller', null), ('4', '2', 'Platform', null), ('5', '2', 'Puzzle', null), ('6', '2', 'Turn Based', null), ('7', '2', 'First Person', null), ('8', '2', 'Light Gun', null), ('9', '3', 'Sports', null), ('11', '3', 'Action', null), ('12', '3', 'Adventure', null), ('15', '3', 'Beat-\'Em-Up', null), ('17', '3', 'Board Games', null), ('21', '3', 'Casino', null), ('22', '3', 'Compilation', null), ('25', '3', 'Educational', null), ('26', '3', 'Fighting', null), ('30', '3', 'Game Show', null), ('32', '3', 'Light Gun', null), ('34', '3', 'Maze', null), ('35', '3', 'Party', null), ('36', '3', 'Miscellaneous', null), ('39', '3', 'Pinball', null), ('40', '3', 'Platform', null), ('42', '3', 'Puzzle', null), ('43', '3', 'Rhythm', null), ('44', '3', 'Role-Playing', null), ('45', '3', 'Shoot-\'Em-Up', null), ('46', '3', 'Shooter', null), ('47', '3', 'Simulation', null), ('53', '3', 'Strategy', null), ('59', '4', 'E', 'Everyone'), ('60', '4', 'T', 'Teen'), ('61', '4', 'M', 'Mature'), ('62', '4', 'EC', 'Early Childhood'), ('63', '4', 'E 10+', 'Everyone 10+'), ('64', '4', 'AO', 'Adults Only'), ('65', '5', 'Publisher', null), ('66', '5', 'Developer', null), ('67', '4', 'GA', null), ('68', '2', 'Flying', null), ('69', '2', 'Fighting', null), ('70', '2', 'Racing', null), ('71', '2', 'Shooting', null), ('72', '2', 'Driving', null), ('73', '3', 'Racing', null), ('74', '6', 'NTSC', null), ('75', '6', 'PAL', null), ('76', '2', 'Other', null), ('77', '4', 'RP', 'Rate Pending'), ('78', '8', 'USA', null), ('79', '8', 'MEX', null), ('80', '6', 'All', 'All regions commonly used for handheld games.');
+INSERT INTO `types` VALUES ('1', '1', '**DEAD**', null), ('2', '2', 'Rail', null), ('3', '2', 'Side scroller', null), ('4', '2', 'Platform', null), ('5', '2', 'Puzzle', null), ('6', '2', 'Turn Based', null), ('7', '2', 'First Person', null), ('8', '2', 'Light Gun', null), ('9', '3', 'Sports', null), ('11', '3', 'Action', null), ('12', '3', 'Adventure', null), ('15', '3', 'Beat-\'Em-Up', null), ('17', '3', 'Board Games', null), ('21', '3', 'Casino', null), ('22', '3', 'Compilation', null), ('25', '3', 'Educational', null), ('26', '3', 'Fighting', null), ('30', '3', 'Game Show', null), ('32', '3', 'Light Gun', null), ('34', '3', 'Maze', null), ('35', '3', 'Party', null), ('36', '3', 'Miscellaneous', null), ('39', '3', 'Pinball', null), ('40', '3', 'Platform', null), ('42', '3', 'Puzzle', null), ('43', '3', 'Rhythm', null), ('44', '3', 'Role-Playing', null), ('45', '3', 'Shoot-\'Em-Up', null), ('46', '3', 'Shooter', null), ('47', '3', 'Simulation', null), ('53', '3', 'Strategy', null), ('59', '4', 'E', 'Everyone'), ('60', '4', 'T', 'Teen'), ('61', '4', 'M', 'Mature'), ('62', '4', 'EC', 'Early Childhood'), ('63', '4', 'E 10+', 'Everyone 10+'), ('64', '4', 'AO', 'Adults Only'), ('65', '5', 'Publisher', null), ('66', '5', 'Developer', null), ('67', '4', 'GA', null), ('68', '2', 'Flying', null), ('69', '2', 'Fighting', null), ('70', '2', 'Racing', null), ('71', '2', 'Shooting', null), ('72', '2', 'Driving', null), ('73', '3', 'Racing', null), ('74', '6', 'NTSC', null), ('75', '6', 'PAL', null), ('76', '2', 'Other', null), ('77', '4', 'RP', 'Rate Pending'), ('78', '8', 'USA', null), ('79', '8', 'MEX', null), ('80', '6', 'All', 'All regions commonly used for handheld games.'), ('81', '4', '3', 'Pegi Rating 3'), ('82', '4', '7', 'Pegi Rating 7'), ('83', '4', '12', 'Pegi Rating 12'), ('84', '4', '16', 'Pegi Rating 16'), ('85', '4', '18', 'Pegi Rating 18'), ('86', '4', 'NR', 'Not Rated');
 COMMIT;
 
 -- ----------------------------
