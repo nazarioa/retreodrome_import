@@ -6,7 +6,7 @@ require_once __DIR__ . '/Medoo/medoo.php';
 $database = new medoo ($settings);
 define ('DEBUG', true);
 
-$file_path = 'data/-master-list-2.xml';
+$file_path = 'data/-master-list.xml';
 $file_handle = fopen ( __DIR__ . '/' . $file_path, 'r');
 $file_data = fread ($file_handle, filesize (__DIR__ . '/' . $file_path));
 
