@@ -16,7 +16,7 @@ foreach ($xml_data as $game) {
 
   // Create a Game entry, no need to check if this
   // game exists already since the database is empty.
-  $last_game_id = $database->insert ('games', [
+  $last_game_id = $database->insert (TBL_GAME, [
     'description' => (string) $game->cartridge->title,
     'disabled' => NO,
   ]);
