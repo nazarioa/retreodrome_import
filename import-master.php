@@ -93,7 +93,6 @@ foreach ($xml_data as $game) {
     // Associating Releases
     // releases are processed after cartridge insert
     foreach ($cartridge->releases as $release) {
-      echo($release->rating);
 
       $country_type_id = get_type ($release->release->country, COUNTRIES, $database, true);
       $maturity_rating_type_id = get_maturity_rating_id ($release->release->rating, $database, false);
