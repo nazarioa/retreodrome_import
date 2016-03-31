@@ -94,7 +94,7 @@ foreach ($xml_data as $game) {
     // releases are processed after cartridge insert
     foreach ($cartridge->releases as $release) {
 
-      $country_type_id = get_type ($release->release->country, COUNTRIES, $database, true);
+      $country_type_id = get_type ((string) $release->release->country, COUNTRIES, $database, true);
       $maturity_rating_type_id = get_maturity_rating_id ($release->release->rating, $database, false);
       $is_official_release = truthy ($release->release->offical);
       $quantities_shipped = $release->release->shipped;
