@@ -83,6 +83,24 @@ INSERT INTO `cartridges_consoles` VALUES ('1', '1', '1');
 COMMIT;
 
 -- ----------------------------
+--  Table structure for `companies_releases`
+-- ----------------------------
+DROP TABLE IF EXISTS `companies_releases`;
+CREATE TABLE `companies_releases` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company_id` int(11) DEFAULT NULL,
+  `release_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+--  Records of `companies_releases`
+-- ----------------------------
+BEGIN;
+INSERT INTO `companies_releases` VALUES ('1', '1', '1');
+COMMIT;
+
+-- ----------------------------
 --  Table structure for `categories`
 -- ----------------------------
 DROP TABLE IF EXISTS `categories`;
