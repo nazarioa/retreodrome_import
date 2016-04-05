@@ -270,6 +270,7 @@ CREATE TABLE `media` (
   `foreign_type` varchar(50) DEFAULT NULL,
   `file_name` varchar(255) DEFAULT NULL,
   `role` varchar(50) DEFAULT NULL,
+  `media_dir` varchar(50) DEFAULT NULL,
   `mime_type` varchar(50) DEFAULT NULL,
   `description` text,
   PRIMARY KEY (`id`)
