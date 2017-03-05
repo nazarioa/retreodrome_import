@@ -1,5 +1,4 @@
 <?php
-<?php
 // Make a copy of this file and rename it to:
 // sensitive-settings.php
 $settings = array(
