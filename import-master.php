@@ -18,14 +18,14 @@ try {
 echo 'Starting' . "\n\n";
 
 $file_path = 'data/-master-list.xml';
-$file_handle = fopen(__DIR__ . '/' . $file_path, 'r');
-$file_data = fread($file_handle, filesize(__DIR__ . '/' . $file_path));
+$file_handle = fopen( join('/', array(__DIR__, $file_path)), 'r');
+$file_data = fread($file_handle, filesize( join('/', array(__DIR__, $file_path))));
 
 $xml_data = simplexml_load_string($file_data);
 
 foreach ($xml_data as $system) {
   if (in_array($system['shortcode'], $systems_to_import)) {
-    $source_path = $media_path['source'] . '/' . $system['shortcode'];
+    $source_path = join('/', array($media_path['source'], $system['shortcode']));
     $destination_path = $media_path['destination'];
 
     if (IMPORT_MEDIA == true) {
@@ -150,8 +150,13 @@ foreach ($xml_data as $system) {
             check_database_error($database);
 
             if (IMPORT_MEDIA == true) {
-              $full_source_path = join('/', $source_path, $file_name);
-              $full_destination_path = join('/', $destination_path, 'game', 'cartridge', $last_release_id, $file_name);
+              $full_source_path = join('/', array($source_path, $file_name));
+
+              $full_destination_folder = implode('/', [$media_path['destination'], 'game', 'release', $last_release_id]);
+              if(!file_exists($full_destination_folder)) {
+                $r = mkdir($full_destination_folder, 0766, TRUE);
+              }
+              $full_destination_path = implode('/', [$full_destination_folder, $file_name]);
               rename($full_source_path, $full_destination_path);
             }
           }
