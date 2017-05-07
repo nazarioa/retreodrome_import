@@ -6,27 +6,26 @@ require_once __DIR__ . '/Medoo/medoo.php';
 define('DEBUG', true);
 
 try {
-    $database = new medoo($settings);
+  $database = new medoo($settings);
 } catch (Exception $e) {
-    $message = 'I cannot connect to the database!' ."\n" . '- Is MySQL running?' ."\n" . '- Do you have the right username and password?' ."\n" . '- Does a database named "'.$settings['database_name'].'"  exist?' . "\n\n" . 'Connection settings are:' . "\n\n";
-    $message .= print_r($settings, true);
+  $message = 'I cannot connect to the database!' ."\n" . '- Is MySQL running?' ."\n" . '- Do you have the right username and password?' ."\n" . '- Does a database named "'.$settings['database_name'].'"  exist?' . "\n\n" . 'Connection settings are:' . "\n\n";
+  $message .= print_r($settings, true);
 
-    die($message);
+  die($message);
 }
 
 if (IMPORT_MEDIA == true) {
-    if (
+  if (
     !isset($media_path['destination'])
     || !is_writable($media_path['destination'])
   ) {
-        throw new Exception('Array `media_path["destination"]` is not found or writable: ' . $media_path['destination']);
-    }
+    throw new Exception('Array `media_path["destination"]` is not found or writable: ' . $media_path['destination']);
+  }
 
-    if (
-  !isset($media_path['source'])
-  ) {
-        throw new Exception('Array `media_path["source"]` is not found or writable: ' . $media_path['source']);
-    }
+
+  if ( !isset($media_path['source']) ) {
+    throw new Exception('Array `media_path["source"]` is not found or writable: ' . $media_path['source']);
+  }
 }
 
 echo 'Starting' . "\n\n";
@@ -145,7 +144,7 @@ foreach ($xml_data as $system) {
               'description' => $description,
             ]);
             check_database_error($database);
-            
+
             if (IMPORT_MEDIA == true) {
               $full_source_path = join('/', $media_path['source'], $file_name);
               $full_destination_path = join('/', $media_path['destination'], 'game', 'cartridge', $last_release_id, $file_name);
