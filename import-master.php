@@ -14,19 +14,6 @@ try {
   die($message);
 }
 
-if (IMPORT_MEDIA == true) {
-  if (
-    !isset($media_path['destination'])
-    || !is_writable($media_path['destination'])
-  ) {
-    throw new Exception('Array `media_path["destination"]` is not found or writable: ' . $media_path['destination']);
-  }
-
-
-  if ( !isset($media_path['source']) ) {
-    throw new Exception('Array `media_path["source"]` is not found or writable: ' . $media_path['source']);
-  }
-}
 
 echo 'Starting' . "\n\n";
 
@@ -38,6 +25,23 @@ $xml_data = simplexml_load_string($file_data);
 
 foreach ($xml_data as $system) {
   if (in_array($system['shortcode'], $systems_to_import)) {
+    $source_path = $media_path['source'] . '/' . $system['shortcode'];
+    $destination_path = $media_path['destination'];
+
+    if (IMPORT_MEDIA == true) {
+      if (
+        !isset($destination_path)
+        || !is_writable($destination_path)
+      ) {
+        throw new Exception('Array `media_path["destination"]` is not found or writable: ' . $destination_path);
+      }
+
+
+      if ( !isset($source_path) ) {
+        throw new Exception('Array `media_path["source"]` is not found or writable: ' .$source_path);
+      }
+    }
+
     foreach ($system as $game) {
 
       // Create a Game entry, no need to check if this
@@ -146,8 +150,8 @@ foreach ($xml_data as $system) {
             check_database_error($database);
 
             if (IMPORT_MEDIA == true) {
-              $full_source_path = join('/', $media_path['source'], $file_name);
-              $full_destination_path = join('/', $media_path['destination'], 'game', 'cartridge', $last_release_id, $file_name);
+              $full_source_path = join('/', $source_path, $file_name);
+              $full_destination_path = join('/', $destination_path, 'game', 'cartridge', $last_release_id, $file_name);
               rename($full_source_path, $full_destination_path);
             }
           }
