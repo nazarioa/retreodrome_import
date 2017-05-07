@@ -1,5 +1,5 @@
 <games>
-  <!-- GB -->
+  <console="GB">
   <game>
     <genres>
       <genre>Puzzle</genre>
@@ -22747,7 +22747,7 @@
       </consoles>
     </cartridge>
   </game>
-  <!-- /GB -->
+</console>
   <!-- GBA -->
   <game>
     <genres>
