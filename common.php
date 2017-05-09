@@ -29,6 +29,9 @@ define('TBL_RELEASE', 'releases');
 define('YES', 1);
 define('NO', 0);
 
+define ('NO_COUNTRY', 'ZZZ');
+define ('ALL_COUNTRY', 'ALL');
+
 
 
 // Helper functions
