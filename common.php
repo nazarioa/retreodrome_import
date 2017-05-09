@@ -130,10 +130,10 @@ function get_company_id($name, &$database, $insert = false)
 
 function set_company_id($name, &$database)
 {
-    $company_id = $database->insert('companies', [
-    'name' => (string) $name,
-  ]);
-    return $company_id;
+    $database->insert('companies', [
+        'name' => (string) $name,
+    ]);
+    return $database->id();
 }
 
 function get_console_id($name, &$database, $insert = false)
@@ -153,10 +153,10 @@ function get_console_id($name, &$database, $insert = false)
 
 function set_console_id($name, &$database)
 {
-    $console_id = $database->insert('consoles', [
-    'name' => (string) $name,
-  ]);
-    return $console_id;
+    $database->insert('consoles', [
+        'name' => (string) $name,
+    ]);
+    return $database->id();
 }
 
 function get_type($type_name, $category_name, &$database, $insert = false)
@@ -192,12 +192,12 @@ function set_type($name, $category, &$database)
         throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
     }
 
-    $type_id = $database->insert(TBL_TYPE, [
-    'name'        => (string) $name,
-    'category_id' => (int) $category_id,
-  ]);
+    $database->insert(TBL_TYPE, [
+        'name'        => (string) $name,
+        'category_id' => (int) $category_id,
+    ]);
 
-    return $type_id;
+    return $database->id();
 }
 
 function get_category($category_name, &$database, $insert = false)
@@ -218,13 +218,12 @@ function get_category($category_name, &$database, $insert = false)
     return $category_id;
 }
 
-function set_category($category, &$database)
-{
-    $type_id = $database->insert(TBL_CATEGORY, [
-    'name' => (string) $category,
-  ]);
+function set_category($category, &$database) {
+    $database->insert(TBL_CATEGORY, [
+        'name' => (string) $category,
+    ]);
 
-    return $type_id;
+    return $database->id();
 }
 
 function truthy($input)
@@ -247,7 +246,7 @@ function check_database_error(&$database)
     } elseif ($error_code == 0) {
         return true;
     } else {
-        $error_last_query = $database->last_query();
+        $error_last_query = $database->last();
         throw new Exception('Some other error:' . $error_code . ' ' . $error_message . "\n" . $error_last_query);
     }
 }

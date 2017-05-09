@@ -48,11 +48,12 @@ foreach ($xml_data as $system) {
 
       // Create a Game entry, no need to check if this
       // game exists already since the database is empty.
-      $last_game_id = $database->insert(TBL_GAME, [
+      $database->insert(TBL_GAME, [
         'description' => (string) $game->cartridge->title,
         'disabled' => NO,
       ]);
       check_database_error($database);
+      $last_game_id = $database->id();
 
 
       // Associating Genres with current game.
@@ -75,7 +76,7 @@ foreach ($xml_data as $system) {
         $prototype = truthy($cartridge->prototype);
         $special = truthy($cartridge->special);
 
-        $last_cartridge_id = $database->insert(TBL_CARTRIDGE, [
+        $database->insert(TBL_CARTRIDGE, [
           'game_id' => (int) $last_game_id,
           'region_type_id' => (int) $region_type_id,
           'name' => (string) $title,
@@ -87,6 +88,7 @@ foreach ($xml_data as $system) {
           'special' => (int) $special,
         ]);
         check_database_error($database);
+        $last_cartridge_id = $database->id();
 
         // Associating Consoles
         // consoles are processed after cartridge insert
@@ -115,13 +117,20 @@ foreach ($xml_data as $system) {
         // Associating Releases
         // releases are processed after cartridge insert
         foreach ($cartridge->releases as $release) {
-          $country_type_id = get_type((string) $release->release->country, COUNTRIES, $database, true);
+
+          $country_type_id = (string) $release->release->country;
+          if(!empty($country_type_id)) {
+            $country_type_id = get_type((string) $release->release->country, COUNTRIES, $database, true);
+          } else {
+            $country_type_id = get_type(ALL_COUNTRY, COUNTRIES, $database, FALSE);
+          }
+
           $maturity_rating_type_id = get_maturity_rating_id($release->release->rating, $database, false);
           $is_official_release = truthy($release->release->offical);
           $quantities_shipped = $release->release->shipped;
           $release_date = $release->release->release_date;
 
-          $last_release_id = $database->insert(TBL_RELEASE, [
+          $database->insert(TBL_RELEASE, [
             'cartridge_id' => (int) $last_cartridge_id,
             'country_type_id' => (int) $country_type_id,
             'maturity_rating_type_id' => (int) $maturity_rating_type_id,
@@ -130,6 +139,7 @@ foreach ($xml_data as $system) {
             'quantities_shipped' => (int) $quantities_shipped,
           ]);
           check_database_error($database);
+          $last_release_id = $database->id();
 
           // Associating Boaxart
           // boaxart are processed after cartridge insert
@@ -141,7 +151,7 @@ foreach ($xml_data as $system) {
             $mime_type = (string) $media['mime'];
             $description = $foreign_type . '-' . $role . '-' . $file_name;
 
-            $last_media_id = $database->insert(TBL_MEDIA, [
+            $database->insert(TBL_MEDIA, [
               'foreign_id' => $last_release_id,
               'foreign_type' => $foreign_type,
               'file_name' => $file_name,
@@ -150,6 +160,7 @@ foreach ($xml_data as $system) {
               'description' => $description,
             ]);
             check_database_error($database);
+            $last_media_id = $database->id();
 
             if (IMPORT_MEDIA == true) {
               $full_source_path = join('/', array($source_path, $file_name));
