@@ -141,7 +141,7 @@ function set_company_id($name, &$database)
 
 function get_console_id($name, &$database, $insert = false)
 {
-    $console_id = $database->select('consoles', ['id'], ['name [=]' => (string) $name]);
+    $console_id = $database->select('consoles', ['id'], ['short_name [=]' => (string) $name]);
 
     if (count($console_id) == 1) {
         $console_id = $console_id[0]['id'];
