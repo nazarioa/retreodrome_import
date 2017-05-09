@@ -44,7 +44,7 @@ function get_region_id($name, &$database, $insert = false)
         if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
             $region_id = set_region_id($name, $database);
         } else {
-            throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
+            throw new Exception($e->getMessage() . "\n\n" . $database->last());
         }
     }
 
@@ -64,7 +64,7 @@ function get_maturity_rating_id($name, &$database, $insert = false)
         if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
             $maturity_rating_type_id = set_maturity_rating_id($name, $database);
         } else {
-            throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
+            throw new Exception($e->getMessage() . "\n\n" . $database->last());
         }
     }
 
@@ -84,7 +84,7 @@ function get_mechanics_id($name, &$database, $insert = false)
         if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
             $mechanics_id = set_mechanics_id($name, $database);
         } else {
-            throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
+            throw new Exception($e->getMessage() . "\n\n" . $database->last());
         }
     }
 
@@ -104,7 +104,7 @@ function get_genre_id($name, &$database, $insert = false)
         if ($e->getMessage() == RESULTS_ZERO && $insert == true) {
             $genre_id = set_genre_id($name, $database);
         } else {
-            throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
+            throw new Exception($e->getMessage() . "\n\n" . $database->last());
         }
     }
 
@@ -192,7 +192,7 @@ function set_type($name, $category, &$database)
     try {
         $category_id = get_category($category, $database);
     } catch (Exception $e) {
-        throw new Exception($e->getMessage() . "\n\n" . $database->last_query());
+        throw new Exception($e->getMessage() . "\n\n" . $database->last());
     }
 
     $database->insert(TBL_TYPE, [
@@ -244,7 +244,7 @@ function check_database_error(&$database)
     $error_message = $database->error()[2];
 
     if ($error_code == 1054) {
-        $error_last_query = $database->last_query();
+        $error_last_query = $database->last();
         throw new Exception($error_message . "\n" . $error_last_query);
     } elseif ($error_code == 0) {
         return true;
