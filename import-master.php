@@ -143,7 +143,6 @@ foreach ($xml_data as $system) {
 
           // Associating Boaxart
           // boaxart are processed after cartridge insert
-          // TODO: Box Art / Database design for it.
           foreach ($release->release->boxart->media as $media) {
             $file_name = (string) $media;
             $foreign_type = (string) $media['foreign_type'];
