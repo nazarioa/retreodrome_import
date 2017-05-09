@@ -1,12 +1,14 @@
 <?php
+use Medoo\Medoo;
+
 require_once __DIR__ . '/sensitive-settings.php';
 require_once __DIR__ . '/common.php';
-require_once __DIR__ . '/Medoo/medoo.php';
+require_once __DIR__ . '/Medoo/src/Medoo.php';
 
 define('DEBUG', true);
 
 try {
-  $database = new medoo($settings);
+  $database = new Medoo($settings);
 } catch (Exception $e) {
   $message = 'I cannot connect to the database!' ."\n" . '- Is MySQL running?' ."\n" . '- Do you have the right username and password?' ."\n" . '- Does a database named "'.$settings['database_name'].'"  exist?' . "\n\n" . 'Connection settings are:' . "\n\n";
   $message .= print_r($settings, true);
