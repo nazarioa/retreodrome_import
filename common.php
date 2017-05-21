@@ -122,7 +122,7 @@ function set_genre_id($name, &$database)
 
 function get_company_id($name, &$database, $insert = false)
 {
-    $company_id = $database->select('companies', ['id'], ['name [~]' => (string) $name]);
+    $company_id = $database->select('companies', ['id'], ['name [~]' => (string) trim($name)]);
 
     if (count($company_id) == 1) {
         $company_id = $company_id[0]['id'];
@@ -145,7 +145,7 @@ function set_company_id($name, &$database)
 
 function get_console_id($name, &$database, $insert = false)
 {
-    $console_id = $database->select('consoles', ['id'], ['short_name [=]' => (string) $name]);
+    $console_id = $database->select('consoles', ['id'], ['short_name [=]' => (string) trim($name)]);
 
     if (count($console_id) == 1) {
         $console_id = $console_id[0]['id'];
@@ -173,7 +173,7 @@ function get_type($type_name, $category_name, &$database, $insert = false, $allo
     } catch (\Exception $e) {
         throw new \Exception(RESULTS_INVALID, 1);
     }
-    $type = $database->select('types', ['id'], ['and' => ['category_id [=]' => $category['id'], 'name [~]' => (string) $type_name]]);
+    $type = $database->select('types', ['id'], ['and' => ['category_id [=]' => $category['id'], 'name [~]' => (string) trim($type_name)]]);
 
     $type_id = null;
     if (count($type) == 1) {
@@ -208,7 +208,7 @@ function set_type($name, $category, &$database)
 
 function get_category($category_name, &$database, $insert = false)
 {
-    $category_id = $database->select('categories', ['id'], ['name [~]' => (string) $category_name, ]);
+    $category_id = $database->select('categories', ['id'], ['name [~]' => (string) trim($category_name), ]);
 
     if (count($category_id) == 1) {
         $category_id = $category_id[0];
