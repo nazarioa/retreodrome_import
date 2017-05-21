@@ -70,7 +70,7 @@ foreach ($xml_data as $system) {
       // Associating "Cartridges" with current game.
       foreach ($game->cartridge as $cartridge) {
         $title = (string) $cartridge->title;
-        $region_type_id = get_region_id($cartridge->region, $database, true);
+        $region_type_id = get_region_id((string) $cartridge->region, $database, true);
         $game_default = (!empty($cartridge['primary']) && 'Y' == $cartridge['primary']) ?  YES : NO;
         $license = truthy($cartridge->license);
         $demo = truthy($cartridge->demo);
