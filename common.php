@@ -173,8 +173,7 @@ function get_type($type_name, $category_name, &$database, $insert = false, $allo
     } catch (\Exception $e) {
         throw new \Exception(RESULTS_INVALID, 1);
     }
-
-    $type = $database->select('lower(types)', ['id'], ['and' => ['category_id [=]' => $category['id'], 'name [~]' => (string) strtolower($type_name)]]);
+    $type = $database->select('types', ['id'], ['and' => ['category_id [=]' => $category['id'], 'name [~]' => (string) $type_name]]);
 
     $type_id = null;
     if (count($type) == 1) {
