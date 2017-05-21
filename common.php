@@ -138,7 +138,7 @@ function get_company_id($name, &$database, $insert = false)
 function set_company_id($name, &$database)
 {
     $database->insert('companies', [
-        'name' => (string) $name,
+        'name' => (string) trim($name),
     ]);
     return $database->id();
 }
@@ -200,7 +200,7 @@ function set_type($name, $category, &$database)
     }
 
     $database->insert(TBL_TYPE, [
-        'name'        => (string) $name,
+        'name'        => (string) trim($name),
         'category_id' => (int) $category_id,
     ]);
 
@@ -227,7 +227,7 @@ function get_category($category_name, &$database, $insert = false)
 
 function set_category($category, &$database) {
     $database->insert(TBL_CATEGORY, [
-        'name' => (string) $category,
+        'name' => (string) trim($category),
     ]);
 
     return $database->id();
