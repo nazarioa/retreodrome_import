@@ -166,7 +166,7 @@ function set_console_id($name, &$database)
     return $database->id();
 }
 
-function get_type($type_name, $category_name, &$database, $insert = false)
+function get_type($type_name, $category_name, &$database, $insert = false, $allow_multiple = false)
 {
     try {
         $category = get_category($category_name, $database);
@@ -179,7 +179,7 @@ function get_type($type_name, $category_name, &$database, $insert = false)
     $type_id = null;
     if (count($type) == 1) {
         $type_id = $type[0]['id'];
-    } elseif (count($type) > 1) {
+    } elseif (count($type) > 1 && !$allow_multiple) {
         throw new \Exception(RESULTS_MULTIPLE, 1);
     } elseif (count($type) < 1 && $insert == true) {
         $type_id = set_type((string) $type_name, $category_name, $database);
