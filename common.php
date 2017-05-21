@@ -1,4 +1,7 @@
 <?php
+namespace Retrodrome\Import;
+use Medoo\Medoo;
+
 require_once __DIR__ . '/sensitive-settings.php';
 define('RESULTS_MULTIPLE', 'Found >1');
 define('RESULTS_ZERO', 'Found 0');

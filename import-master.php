@@ -1,4 +1,5 @@
 <?php
+namespace Retrodrome\Import;
 use Medoo\Medoo;
 
 require_once __DIR__ . '/sensitive-settings.php';
