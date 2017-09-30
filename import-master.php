@@ -10,6 +10,15 @@ require_once __DIR__ . '/Medoo/src/Medoo.php';
 
 define('DEBUG', TRUE);
 
+/*
+ * This is a pref-light check.
+ * If the IMPORT_MEDIA flag is on, lets make sure we have the correct environment variables.
+ *
+ * @param $media_path['destination'] : Root directory of cakePHPs file storage
+ * defined as webroot/files/
+ *
+ * @param $media_path['source'] : Place where the raw media is coming from.
+ */
 try {
   $database = new Medoo($settings);
 } catch (Exception $e) {
@@ -30,6 +39,9 @@ $xml_data = simplexml_load_string($file_data);
 
 foreach ($xml_data as $system) {
   if (in_array($system['shortcode'], $systems_to_import)) {
+    /*
+    * Gets all the artwork information that currently lives in the database for the given system.
+    */
     $source_path      = join('/', array($media_path['source'], $system['shortcode']));
     $destination_path = $media_path['destination'];
 
