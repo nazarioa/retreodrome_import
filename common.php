@@ -211,18 +211,18 @@ function set_type($name, $category, &$database) {
 }
 
 function get_category($category_name, &$database, $insert = FALSE) {
-  $category_id = $database->select('categories', ['id'], ['name [~]' => (string) trim($category_name),]);
+  $categories = $database->select('categories', ['id'], ['name [~]' => (string) trim($category_name),]);
 
-  if (count($category_id) == 1) {
-    $category_id = $category_id[0];
+  if (count($categories) == 1) {
+    $category_id = $categories[0];
   }
-  elseif (count($category_id) > 1) {
+  elseif (count($categories) > 1) {
     throw new \Exception(RESULTS_MULTIPLE, 1);
   }
-  elseif (count($category_id) < 1 && $insert == TRUE) {
+  elseif (count($categories) < 1 && $insert == TRUE) {
     $category_id = set_category($category_name, $database);
   }
-  elseif (count($category_id) < 1) {
+  elseif (count($categories) < 1) {
     throw new \Exception(RESULTS_ZERO, 1);
   }
   else {
