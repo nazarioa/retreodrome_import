@@ -8,6 +8,19 @@ require_once __DIR__ . '/sensitive-settings.php';
 require_once __DIR__ . '/common.php';
 require_once __DIR__ . '/Medoo/src/Medoo.php';
 
+/**
+ * This is a script written to import -master.xml file into an empty database
+ * We are assuming that the database has some information:
+ * - consoles
+ * - types
+ * - categories
+ * - companies
+ *
+ * This script will also move image data around assuming that
+ * the IMPORT_MEDIA flag is set to TRUE
+ *
+ */
+
 define('DEBUG', TRUE);
 
 /*
@@ -45,14 +58,19 @@ foreach ($xml_data as $system) {
     $source_path      = join('/', array($media_path['source'], $system['shortcode']));
     $destination_path = $media_path['destination'];
 
+    /*
+    * This is a pref-light check.
+    * If the IMPORT_MEDIA flag is on, lets make sure we have the correct environment variables.
+    *
+    * @param $destination_path : Root directory of cakePHPs file storage
+    * defined as webroot/files/
+    *
+    * @param $source_path : Place where the raw media is coming from.
+    */
     if (IMPORT_MEDIA == TRUE) {
-      if (
-        !isset($destination_path)
-        || !is_writable($destination_path)
-      ) {
+      if (!isset($destination_path) || !is_writable($destination_path)) {
         throw new Exception('Array `media_path["destination"]` is not found or writable: ' . $destination_path);
       }
-
 
       if (!isset($source_path)) {
         throw new Exception('Array `media_path["source"]` is not found or writable: ' . $source_path);
