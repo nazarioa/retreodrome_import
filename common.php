@@ -165,13 +165,13 @@ function set_console_id($name, &$database) {
 
 function get_type($type_name, $category_name, &$database, $insert = FALSE, $allow_multiple = FALSE) {
   try {
-    $category = get_category($category_name, $database);
+    $category_id = get_category($category_name, $database);
   } catch (\Exception $e) {
     throw new \Exception(RESULTS_INVALID, 1);
   }
   $type = $database->select('types', ['id'], [
     'and' => [
-      'category_id [=]' => $category['id'],
+      'category_id [=]' => $category_id,
       'name [~]'        => (string) trim($type_name)
     ]
   ]);
@@ -212,9 +212,10 @@ function set_type($name, $category, &$database) {
 
 function get_category($category_name, &$database, $insert = FALSE) {
   $categories = $database->select('categories', ['id'], ['name [~]' => (string) trim($category_name),]);
+  $category_id = null;
 
   if (count($categories) == 1) {
-    $category_id = $categories[0];
+    $category_id = $categories[0]['id'];
   }
   elseif (count($categories) > 1) {
     throw new \Exception(RESULTS_MULTIPLE, 1);
@@ -228,6 +229,12 @@ function get_category($category_name, &$database, $insert = FALSE) {
   else {
     throw new \Exception(RESULTS_INVALID, 1);
   }
+
+  if ($category_id == null) {
+    // This should never be called as all code paths throw an error or return an int.
+    throw new \Exception('Something else went horribly wrong. Please resolve', 1);
+  }
+
   return $category_id;
 }
 
