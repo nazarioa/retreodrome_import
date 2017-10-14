@@ -79,8 +79,8 @@ foreach ($mediaData as $key => $mediaEntry) {
   $full_destination_path = implode('/', [
     Settings\$media_path['destination'],
     'game',
-    $item['foreign_type'],
-    $item['foreign_id'],
+    $mediaEntry['foreign_type'],
+    $mediaEntry['foreign_id'],
   ]);
 
   /*
@@ -88,8 +88,8 @@ foreach ($mediaData as $key => $mediaEntry) {
    */
   if (file_exists($full_source_path)) {
     mkdir($full_destination_path);
-    rename($full_source_path, $full_destination_path . '/' . $item['file_name']);
+    rename($full_source_path, $full_destination_path . '/' . $mediaEntry['file_name']);
   } else {
-    echo $item['file_name'] . PHP_EOL;
+    echo $mediaEntry['file_name'] . PHP_EOL;
   }
 }
