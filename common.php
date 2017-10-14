@@ -1,5 +1,4 @@
 <?php
-
 namespace Retrodrome\Import;
 
 use Medoo\Medoo;
@@ -267,6 +266,6 @@ function check_database_error(&$database) {
   }
   else {
     $error_last_query = $database->last();
-    throw new Exception('Some other error:' . $error_code . ' ' . $error_message . "\n" . $error_last_query);
+    throw new \Exception('Some other error:' . $error_code . ' ' . $error_message . "\n" . $error_last_query);
   }
 }

@@ -1,5 +1,4 @@
 <?php
-
 namespace Retrodrome\Import;
 
 use Medoo\Medoo;
@@ -55,7 +54,8 @@ foreach ($xml_data as $system) {
     /*
     * Gets all the artwork information that currently lives in the database for the given system.
     */
-    $source_path      = join('/', array($media_path['source'], $system['shortcode']));
+    $source_path      = join('/', array($media_path['source']));
+//    $source_path      = join('/', array($media_path['source'], $system['shortcode']));
     $destination_path = $media_path['destination'];
 
     /*
