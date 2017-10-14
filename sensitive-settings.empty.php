@@ -11,3 +11,14 @@ $settings = array(
   'password' => 'password_here',
   'charset' => 'utf8'
 );
+
+// Should images be imported.
+define('IMPORT_MEDIA', TRUE);
+
+// Media source and destination paths.
+$media_path['source'] = '/full/path/to/retrodrome_import/data/RetrodormeMedia';
+$media_path['destination'] = '/full/path/to/retrodrome/webroot/files';
+
+// Systems to import. Pick and choose:
+// 'GB', 'GBA', 'GBC', 'SNES', 'NES', 'N64', 'VB'
+$systems_to_import = array();
